@@ -133,3 +133,5 @@ asv.conf.json
 models/
 html/
 benchmarks/
+.pre-commit-search-and-replace.yaml
+.idea
