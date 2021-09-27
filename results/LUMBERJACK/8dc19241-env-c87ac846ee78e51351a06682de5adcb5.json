@@ -91,7 +91,7 @@
         "sandag1example.atwork_subtour_scheduling.time_component": 1632770192944,
         "sandag1example.auto_ownership_simulate.time_component": 1632770194948,
         "sandag1example.cdap_simulate.time_component": 1632770203060,
-        "sandag1example.free_parking.time_component": 1632770205298,
+        "sandag1example.free_parking.time_component": 1632783435218,
         "sandag1example.joint_tour_composition.time_component": 1632770207486,
         "sandag1example.joint_tour_destination.time_component": 1632770217129,
         "sandag1example.joint_tour_frequency.time_component": 1632770219851,
@@ -374,23 +374,25 @@
             ],
             "samples": [
                 [
-                    0.6448457770000002
+                    0.6448457770000002,
+                    0.6290280290000001,
+                    0.6520302210000002
                 ]
             ],
             "stats": [
                 {
                     "ci_99": [
-                        -Infinity,
-                        Infinity
+                        0.5886534876940264,
+                        0.6952825303059741
                     ],
-                    "max": 0.6448457770000002,
-                    "mean": 0.6448457770000002,
-                    "min": 0.6448457770000002,
+                    "max": 0.6520302210000002,
+                    "mean": 0.6419680090000002,
+                    "min": 0.6290280290000001,
                     "number": 1,
-                    "q_25": 0.6448457770000002,
-                    "q_75": 0.6448457770000002,
-                    "repeat": 1,
-                    "std": 0.0
+                    "q_25": 0.6369369030000002,
+                    "q_75": 0.6484379990000002,
+                    "repeat": 3,
+                    "std": 0.009608550730038506
                 }
             ]
         },
@@ -2326,7 +2328,7 @@
         "sandag1example.atwork_subtour_scheduling.time_component": 1632770187709,
         "sandag1example.auto_ownership_simulate.time_component": 1632770192945,
         "sandag1example.cdap_simulate.time_component": 1632770194949,
-        "sandag1example.free_parking.time_component": 1632770203061,
+        "sandag1example.free_parking.time_component": 1632783432059,
         "sandag1example.joint_tour_composition.time_component": 1632770205298,
         "sandag1example.joint_tour_destination.time_component": 1632770207487,
         "sandag1example.joint_tour_frequency.time_component": 1632770217129,
