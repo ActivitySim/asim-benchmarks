@@ -1,0 +1,9 @@
+{
+    "arch": "AMD64",
+    "cpu": "",
+    "machine": "CAMHPC01",
+    "num_cpu": "128",
+    "os": "Windows 2012ServerR2",
+    "ram": "",
+    "version": 1
+}
