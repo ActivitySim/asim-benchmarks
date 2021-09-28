@@ -1,8 +1,8 @@
 {
     "benchmark_version": {
-        "sandag1example.non_mandatory_tour_scheduling.time_component": "a2e19f871a998a22ec718b6e92d42025d7f9e87ae98a75df9756d7f3bc3f2d60",
-        "sandag2example.non_mandatory_tour_scheduling.time_component": "a2e19f871a998a22ec718b6e92d42025d7f9e87ae98a75df9756d7f3bc3f2d60",
-        "sandag3example.non_mandatory_tour_scheduling.time_component": "a2e19f871a998a22ec718b6e92d42025d7f9e87ae98a75df9756d7f3bc3f2d60"
+        "sandag1example.non_mandatory_tour_scheduling.time_component": "1",
+        "sandag2example.non_mandatory_tour_scheduling.time_component": "1",
+        "sandag3example.non_mandatory_tour_scheduling.time_component": "1"
     },
     "commit_hash": "241ddb64ff1f8977ce0d329247c8c37004d18d30",
     "date": 1632787040000,
