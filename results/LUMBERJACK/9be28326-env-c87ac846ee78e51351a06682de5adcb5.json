@@ -1,0 +1,840 @@
+{
+    "benchmark_version": {
+        "mtc1full.atwork_subtour_destination.time_component": "1",
+        "mtc1full.atwork_subtour_frequency.time_component": "1",
+        "mtc1full.atwork_subtour_mode_choice.time_component": "1",
+        "mtc1full.atwork_subtour_scheduling.time_component": "1",
+        "mtc1full.auto_ownership_simulate.time_component": "1",
+        "mtc1full.cdap_simulate.time_component": "1",
+        "mtc1full.free_parking.time_component": "1",
+        "mtc1full.joint_tour_composition.time_component": "1",
+        "mtc1full.joint_tour_destination.time_component": "1",
+        "mtc1full.joint_tour_frequency.time_component": "1",
+        "mtc1full.joint_tour_participation.time_component": "1",
+        "mtc1full.joint_tour_scheduling.time_component": "1",
+        "mtc1full.mandatory_tour_frequency.time_component": "1",
+        "mtc1full.mandatory_tour_scheduling.time_component": "1",
+        "mtc1full.non_mandatory_tour_destination.time_component": "1",
+        "mtc1full.non_mandatory_tour_frequency.time_component": "1",
+        "mtc1full.non_mandatory_tour_scheduling.time_component": "1",
+        "mtc1full.school_location.time_component": "1",
+        "mtc1full.stop_frequency.time_component": "1",
+        "mtc1full.tour_mode_choice_simulate.time_component": "1",
+        "mtc1full.trip_destination.time_component": "1",
+        "mtc1full.trip_mode_choice.time_component": "1",
+        "mtc1full.trip_purpose.time_component": "1",
+        "mtc1full.trip_purpose_and_destination.time_component": "1",
+        "mtc1full.trip_scheduling.time_component": "1",
+        "mtc1full.workplace_location.time_component": "1",
+        "mtc1full.write_trip_matrices.time_component": "1"
+    },
+    "commit_hash": "9be28326a8020dda891eb68457435aae8216dcc1",
+    "date": 1632839961000,
+    "ended_at": {
+        "mtc1full.atwork_subtour_destination.time_component": 1632840032457,
+        "mtc1full.atwork_subtour_frequency.time_component": 1632840066187,
+        "mtc1full.atwork_subtour_mode_choice.time_component": 1632840098891,
+        "mtc1full.atwork_subtour_scheduling.time_component": 1632840133794,
+        "mtc1full.auto_ownership_simulate.time_component": 1632840164378,
+        "mtc1full.cdap_simulate.time_component": 1632840199934,
+        "mtc1full.free_parking.time_component": 1632840229497,
+        "mtc1full.joint_tour_composition.time_component": 1632840259968,
+        "mtc1full.joint_tour_destination.time_component": 1632840295456,
+        "mtc1full.joint_tour_frequency.time_component": 1632840327382,
+        "mtc1full.joint_tour_participation.time_component": 1632840359721,
+        "mtc1full.joint_tour_scheduling.time_component": 1632840391557,
+        "mtc1full.mandatory_tour_frequency.time_component": 1632840422782,
+        "mtc1full.mandatory_tour_scheduling.time_component": 1632840522780,
+        "mtc1full.non_mandatory_tour_destination.time_component": 1632840611785,
+        "mtc1full.non_mandatory_tour_frequency.time_component": 1632840657548,
+        "mtc1full.non_mandatory_tour_scheduling.time_component": 1632840713444,
+        "mtc1full.school_location.time_component": 1632840770049,
+        "mtc1full.stop_frequency.time_component": 1632840808740,
+        "mtc1full.tour_mode_choice_simulate.time_component": 1632840860986,
+        "mtc1full.trip_destination.time_component": 1632841038898,
+        "mtc1full.trip_mode_choice.time_component": 1632841087258,
+        "mtc1full.trip_purpose.time_component": 1632841119189,
+        "mtc1full.trip_purpose_and_destination.time_component": 1632841151222,
+        "mtc1full.trip_scheduling.time_component": 1632841189123,
+        "mtc1full.workplace_location.time_component": 1632841274371,
+        "mtc1full.write_trip_matrices.time_component": 1632841312745
+    },
+    "env_name": "conda-py3.9-coverage-cytoolz-numba-numpy-openmatrix-orca-pandas-psutil-pyarrow-pytables-pytest-pyyaml-requests-ruamel.yaml-toolz",
+    "params": {
+        "arch": "x86_64",
+        "coverage": "",
+        "cpu": "Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz",
+        "cytoolz": "",
+        "machine": "LUMBERJACK",
+        "num_cpu": "16",
+        "numba": "",
+        "numpy": "",
+        "openmatrix": "",
+        "orca": "",
+        "os": "Darwin 19.6.0",
+        "pandas": "",
+        "psutil": "",
+        "pyarrow": "",
+        "pytables": "",
+        "pytest": "",
+        "python": "3.9",
+        "pyyaml": "",
+        "ram": "64GB",
+        "requests": "",
+        "ruamel.yaml": "",
+        "toolz": ""
+    },
+    "profiles": {},
+    "python": "3.9",
+    "requirements": {
+        "coverage": "",
+        "cytoolz": "",
+        "numba": "",
+        "numpy": "",
+        "openmatrix": "",
+        "orca": "",
+        "pandas": "",
+        "psutil": "",
+        "pyarrow": "",
+        "pytables": "",
+        "pytest": "",
+        "pyyaml": "",
+        "requests": "",
+        "ruamel.yaml": "",
+        "toolz": ""
+    },
+    "results": {
+        "mtc1full.atwork_subtour_destination.time_component": {
+            "result": [
+                11.677227951999996
+            ],
+            "samples": [
+                [
+                    11.677227951999996
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 11.677227951999996,
+                    "mean": 11.677227951999996,
+                    "min": 11.677227951999996,
+                    "number": 1,
+                    "q_25": 11.677227951999996,
+                    "q_75": 11.677227951999996,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.atwork_subtour_frequency.time_component": {
+            "result": [
+                0.5553645070000002
+            ],
+            "samples": [
+                [
+                    0.5553645070000002
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 0.5553645070000002,
+                    "mean": 0.5553645070000002,
+                    "min": 0.5553645070000002,
+                    "number": 1,
+                    "q_25": 0.5553645070000002,
+                    "q_75": 0.5553645070000002,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.atwork_subtour_mode_choice.time_component": {
+            "result": [
+                1.5676651249999978
+            ],
+            "samples": [
+                [
+                    1.5676651249999978
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.5676651249999978,
+                    "mean": 1.5676651249999978,
+                    "min": 1.5676651249999978,
+                    "number": 1,
+                    "q_25": 1.5676651249999978,
+                    "q_75": 1.5676651249999978,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.atwork_subtour_scheduling.time_component": {
+            "result": [
+                2.1451990810000012
+            ],
+            "samples": [
+                [
+                    2.1451990810000012
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 2.1451990810000012,
+                    "mean": 2.1451990810000012,
+                    "min": 2.1451990810000012,
+                    "number": 1,
+                    "q_25": 2.1451990810000012,
+                    "q_75": 2.1451990810000012,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.auto_ownership_simulate.time_component": {
+            "result": [
+                0.20237901200000152
+            ],
+            "samples": [
+                [
+                    0.20237901200000152
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 0.20237901200000152,
+                    "mean": 0.20237901200000152,
+                    "min": 0.20237901200000152,
+                    "number": 1,
+                    "q_25": 0.20237901200000152,
+                    "q_75": 0.20237901200000152,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.cdap_simulate.time_component": {
+            "result": [
+                5.343233201
+            ],
+            "samples": [
+                [
+                    5.343233201
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 5.343233201,
+                    "mean": 5.343233201,
+                    "min": 5.343233201,
+                    "number": 1,
+                    "q_25": 5.343233201,
+                    "q_75": 5.343233201,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.free_parking.time_component": {
+            "result": [
+                0.3567219470000005
+            ],
+            "samples": [
+                [
+                    0.3567219470000005
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 0.3567219470000005,
+                    "mean": 0.3567219470000005,
+                    "min": 0.3567219470000005,
+                    "number": 1,
+                    "q_25": 0.3567219470000005,
+                    "q_75": 0.3567219470000005,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.joint_tour_composition.time_component": {
+            "result": [
+                0.17139684400000021
+            ],
+            "samples": [
+                [
+                    0.17139684400000021
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 0.17139684400000021,
+                    "mean": 0.17139684400000021,
+                    "min": 0.17139684400000021,
+                    "number": 1,
+                    "q_25": 0.17139684400000021,
+                    "q_75": 0.17139684400000021,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.joint_tour_destination.time_component": {
+            "result": [
+                4.998444823000003
+            ],
+            "samples": [
+                [
+                    4.998444823000003
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 4.998444823000003,
+                    "mean": 4.998444823000003,
+                    "min": 4.998444823000003,
+                    "number": 1,
+                    "q_25": 4.998444823000003,
+                    "q_75": 4.998444823000003,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.joint_tour_frequency.time_component": {
+            "result": [
+                0.48270895499999966
+            ],
+            "samples": [
+                [
+                    0.48270895499999966
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 0.48270895499999966,
+                    "mean": 0.48270895499999966,
+                    "min": 0.48270895499999966,
+                    "number": 1,
+                    "q_25": 0.48270895499999966,
+                    "q_75": 0.48270895499999966,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.joint_tour_participation.time_component": {
+            "result": [
+                1.6960488470000001
+            ],
+            "samples": [
+                [
+                    1.6960488470000001
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.6960488470000001,
+                    "mean": 1.6960488470000001,
+                    "min": 1.6960488470000001,
+                    "number": 1,
+                    "q_25": 1.6960488470000001,
+                    "q_75": 1.6960488470000001,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.joint_tour_scheduling.time_component": {
+            "result": [
+                1.099833880000002
+            ],
+            "samples": [
+                [
+                    1.099833880000002
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.099833880000002,
+                    "mean": 1.099833880000002,
+                    "min": 1.099833880000002,
+                    "number": 1,
+                    "q_25": 1.099833880000002,
+                    "q_75": 1.099833880000002,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.mandatory_tour_frequency.time_component": {
+            "result": [
+                0.7466989210000001
+            ],
+            "samples": [
+                [
+                    0.7466989210000001
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 0.7466989210000001,
+                    "mean": 0.7466989210000001,
+                    "min": 0.7466989210000001,
+                    "number": 1,
+                    "q_25": 0.7466989210000001,
+                    "q_75": 0.7466989210000001,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.mandatory_tour_scheduling.time_component": {
+            "result": [
+                70.43340772
+            ],
+            "samples": [
+                [
+                    70.43340772
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 70.43340772,
+                    "mean": 70.43340772,
+                    "min": 70.43340772,
+                    "number": 1,
+                    "q_25": 70.43340772,
+                    "q_75": 70.43340772,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.non_mandatory_tour_destination.time_component": {
+            "result": [
+                57.586727853
+            ],
+            "samples": [
+                [
+                    57.586727853
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 57.586727853,
+                    "mean": 57.586727853,
+                    "min": 57.586727853,
+                    "number": 1,
+                    "q_25": 57.586727853,
+                    "q_75": 57.586727853,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.non_mandatory_tour_frequency.time_component": {
+            "result": [
+                14.537467266
+            ],
+            "samples": [
+                [
+                    14.537467266
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 14.537467266,
+                    "mean": 14.537467266,
+                    "min": 14.537467266,
+                    "number": 1,
+                    "q_25": 14.537467266,
+                    "q_75": 14.537467266,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.non_mandatory_tour_scheduling.time_component": {
+            "result": [
+                21.319045444000004
+            ],
+            "samples": [
+                [
+                    21.319045444000004
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 21.319045444000004,
+                    "mean": 21.319045444000004,
+                    "min": 21.319045444000004,
+                    "number": 1,
+                    "q_25": 21.319045444000004,
+                    "q_75": 21.319045444000004,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.school_location.time_component": {
+            "result": [
+                21.983042809999993
+            ],
+            "samples": [
+                [
+                    21.983042809999993
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 21.983042809999993,
+                    "mean": 21.983042809999993,
+                    "min": 21.983042809999993,
+                    "number": 1,
+                    "q_25": 21.983042809999993,
+                    "q_75": 21.983042809999993,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.stop_frequency.time_component": {
+            "result": [
+                3.7079609689999984
+            ],
+            "samples": [
+                [
+                    3.7079609689999984
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 3.7079609689999984,
+                    "mean": 3.7079609689999984,
+                    "min": 3.7079609689999984,
+                    "number": 1,
+                    "q_25": 3.7079609689999984,
+                    "q_75": 3.7079609689999984,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.tour_mode_choice_simulate.time_component": {
+            "result": [
+                14.539350544000001
+            ],
+            "samples": [
+                [
+                    14.539350544000001
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 14.539350544000001,
+                    "mean": 14.539350544000001,
+                    "min": 14.539350544000001,
+                    "number": 1,
+                    "q_25": 14.539350544000001,
+                    "q_75": 14.539350544000001,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.trip_destination.time_component": {
+            "result": [
+                142.951360611
+            ],
+            "samples": [
+                [
+                    142.951360611
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 142.951360611,
+                    "mean": 142.951360611,
+                    "min": 142.951360611,
+                    "number": 1,
+                    "q_25": 142.951360611,
+                    "q_75": 142.951360611,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.trip_mode_choice.time_component": {
+            "result": [
+                17.440692491
+            ],
+            "samples": [
+                [
+                    17.440692491
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 17.440692491,
+                    "mean": 17.440692491,
+                    "min": 17.440692491,
+                    "number": 1,
+                    "q_25": 17.440692491,
+                    "q_75": 17.440692491,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.trip_purpose.time_component": {
+            "result": [
+                0.3437156210000012
+            ],
+            "samples": [
+                [
+                    0.3437156210000012
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 0.3437156210000012,
+                    "mean": 0.3437156210000012,
+                    "min": 0.3437156210000012,
+                    "number": 1,
+                    "q_25": 0.3437156210000012,
+                    "q_75": 0.3437156210000012,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.trip_purpose_and_destination.time_component": {
+            "result": [
+                0.47958334000000136
+            ],
+            "samples": [
+                [
+                    0.47958334000000136
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 0.47958334000000136,
+                    "mean": 0.47958334000000136,
+                    "min": 0.47958334000000136,
+                    "number": 1,
+                    "q_25": 0.47958334000000136,
+                    "q_75": 0.47958334000000136,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.trip_scheduling.time_component": {
+            "result": [
+                6.496609766000002
+            ],
+            "samples": [
+                [
+                    6.496609766000002
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 6.496609766000002,
+                    "mean": 6.496609766000002,
+                    "min": 6.496609766000002,
+                    "number": 1,
+                    "q_25": 6.496609766000002,
+                    "q_75": 6.496609766000002,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.workplace_location.time_component": {
+            "result": [
+                54.587677707
+            ],
+            "samples": [
+                [
+                    54.587677707
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 54.587677707,
+                    "mean": 54.587677707,
+                    "min": 54.587677707,
+                    "number": 1,
+                    "q_25": 54.587677707,
+                    "q_75": 54.587677707,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.write_trip_matrices.time_component": {
+            "result": [
+                7.551528658000002
+            ],
+            "samples": [
+                [
+                    7.551528658000002
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 7.551528658000002,
+                    "mean": 7.551528658000002,
+                    "min": 7.551528658000002,
+                    "number": 1,
+                    "q_25": 7.551528658000002,
+                    "q_75": 7.551528658000002,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        }
+    },
+    "started_at": {
+        "mtc1full.atwork_subtour_destination.time_component": 1632839983831,
+        "mtc1full.atwork_subtour_frequency.time_component": 1632840032457,
+        "mtc1full.atwork_subtour_mode_choice.time_component": 1632840066187,
+        "mtc1full.atwork_subtour_scheduling.time_component": 1632840098891,
+        "mtc1full.auto_ownership_simulate.time_component": 1632840133794,
+        "mtc1full.cdap_simulate.time_component": 1632840164379,
+        "mtc1full.free_parking.time_component": 1632840199935,
+        "mtc1full.joint_tour_composition.time_component": 1632840229498,
+        "mtc1full.joint_tour_destination.time_component": 1632840259968,
+        "mtc1full.joint_tour_frequency.time_component": 1632840295456,
+        "mtc1full.joint_tour_participation.time_component": 1632840327383,
+        "mtc1full.joint_tour_scheduling.time_component": 1632840359721,
+        "mtc1full.mandatory_tour_frequency.time_component": 1632840391557,
+        "mtc1full.mandatory_tour_scheduling.time_component": 1632840422782,
+        "mtc1full.non_mandatory_tour_destination.time_component": 1632840522780,
+        "mtc1full.non_mandatory_tour_frequency.time_component": 1632840611785,
+        "mtc1full.non_mandatory_tour_scheduling.time_component": 1632840657548,
+        "mtc1full.school_location.time_component": 1632840713444,
+        "mtc1full.stop_frequency.time_component": 1632840770050,
+        "mtc1full.tour_mode_choice_simulate.time_component": 1632840808741,
+        "mtc1full.trip_destination.time_component": 1632840860986,
+        "mtc1full.trip_mode_choice.time_component": 1632841038899,
+        "mtc1full.trip_purpose.time_component": 1632841087258,
+        "mtc1full.trip_purpose_and_destination.time_component": 1632841119189,
+        "mtc1full.trip_scheduling.time_component": 1632841151222,
+        "mtc1full.workplace_location.time_component": 1632841189124,
+        "mtc1full.write_trip_matrices.time_component": 1632841274372
+    },
+    "version": 1
+}
