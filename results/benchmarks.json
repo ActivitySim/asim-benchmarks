@@ -1,6 +1,6 @@
 {
     "mtc1full.atwork_subtour_destination.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.atwork_subtour_destination.time_component",
         "number": 1,
@@ -10,7 +10,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -18,7 +18,7 @@
         "warmup_time": 0
     },
     "mtc1full.atwork_subtour_frequency.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.atwork_subtour_frequency.time_component",
         "number": 1,
@@ -28,7 +28,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -36,7 +36,7 @@
         "warmup_time": 0
     },
     "mtc1full.atwork_subtour_mode_choice.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.atwork_subtour_mode_choice.time_component",
         "number": 1,
@@ -46,7 +46,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -54,7 +54,7 @@
         "warmup_time": 0
     },
     "mtc1full.atwork_subtour_scheduling.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.atwork_subtour_scheduling.time_component",
         "number": 1,
@@ -64,7 +64,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -72,7 +72,7 @@
         "warmup_time": 0
     },
     "mtc1full.auto_ownership_simulate.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.auto_ownership_simulate.time_component",
         "number": 1,
@@ -82,7 +82,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -90,7 +90,7 @@
         "warmup_time": 0
     },
     "mtc1full.cdap_simulate.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.cdap_simulate.time_component",
         "number": 1,
@@ -100,7 +100,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -108,7 +108,7 @@
         "warmup_time": 0
     },
     "mtc1full.free_parking.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.free_parking.time_component",
         "number": 1,
@@ -118,7 +118,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -126,7 +126,7 @@
         "warmup_time": 0
     },
     "mtc1full.joint_tour_composition.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.joint_tour_composition.time_component",
         "number": 1,
@@ -136,7 +136,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -144,7 +144,7 @@
         "warmup_time": 0
     },
     "mtc1full.joint_tour_destination.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.joint_tour_destination.time_component",
         "number": 1,
@@ -154,7 +154,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -162,7 +162,7 @@
         "warmup_time": 0
     },
     "mtc1full.joint_tour_frequency.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.joint_tour_frequency.time_component",
         "number": 1,
@@ -172,7 +172,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -180,7 +180,7 @@
         "warmup_time": 0
     },
     "mtc1full.joint_tour_participation.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.joint_tour_participation.time_component",
         "number": 1,
@@ -190,7 +190,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -198,7 +198,7 @@
         "warmup_time": 0
     },
     "mtc1full.joint_tour_scheduling.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.joint_tour_scheduling.time_component",
         "number": 1,
@@ -208,7 +208,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -216,7 +216,7 @@
         "warmup_time": 0
     },
     "mtc1full.mandatory_tour_frequency.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.mandatory_tour_frequency.time_component",
         "number": 1,
@@ -226,7 +226,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -234,7 +234,7 @@
         "warmup_time": 0
     },
     "mtc1full.mandatory_tour_scheduling.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.mandatory_tour_scheduling.time_component",
         "number": 1,
@@ -244,7 +244,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -252,7 +252,7 @@
         "warmup_time": 0
     },
     "mtc1full.non_mandatory_tour_destination.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.non_mandatory_tour_destination.time_component",
         "number": 1,
@@ -262,7 +262,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -270,7 +270,7 @@
         "warmup_time": 0
     },
     "mtc1full.non_mandatory_tour_frequency.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.non_mandatory_tour_frequency.time_component",
         "number": 1,
@@ -280,7 +280,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -288,7 +288,7 @@
         "warmup_time": 0
     },
     "mtc1full.non_mandatory_tour_scheduling.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.non_mandatory_tour_scheduling.time_component",
         "number": 1,
@@ -298,7 +298,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -306,7 +306,7 @@
         "warmup_time": 0
     },
     "mtc1full.school_location.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.school_location.time_component",
         "number": 1,
@@ -316,7 +316,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -324,7 +324,7 @@
         "warmup_time": 0
     },
     "mtc1full.stop_frequency.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.stop_frequency.time_component",
         "number": 1,
@@ -334,7 +334,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -342,7 +342,7 @@
         "warmup_time": 0
     },
     "mtc1full.tour_mode_choice_simulate.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.tour_mode_choice_simulate.time_component",
         "number": 1,
@@ -352,7 +352,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -360,7 +360,7 @@
         "warmup_time": 0
     },
     "mtc1full.trip_destination.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.trip_destination.time_component",
         "number": 1,
@@ -370,7 +370,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -378,7 +378,7 @@
         "warmup_time": 0
     },
     "mtc1full.trip_mode_choice.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.trip_mode_choice.time_component",
         "number": 1,
@@ -388,7 +388,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -396,7 +396,7 @@
         "warmup_time": 0
     },
     "mtc1full.trip_purpose.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.trip_purpose.time_component",
         "number": 1,
@@ -406,7 +406,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -414,7 +414,7 @@
         "warmup_time": 0
     },
     "mtc1full.trip_purpose_and_destination.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.trip_purpose_and_destination.time_component",
         "number": 1,
@@ -424,7 +424,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -432,7 +432,7 @@
         "warmup_time": 0
     },
     "mtc1full.trip_scheduling.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.trip_scheduling.time_component",
         "number": 1,
@@ -442,7 +442,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -450,7 +450,7 @@
         "warmup_time": 0
     },
     "mtc1full.workplace_location.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.workplace_location.time_component",
         "number": 1,
@@ -460,7 +460,7 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
@@ -468,7 +468,7 @@
         "warmup_time": 0
     },
     "mtc1full.write_trip_matrices.time_component": {
-        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
+        "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
         "min_run_count": 1,
         "name": "mtc1full.write_trip_matrices.time_component",
         "number": 1,
@@ -478,12 +478,324 @@
         "processes": 1,
         "repeat": 1,
         "sample_time": 0.01,
-        "setup_cache_key": "./mtc1full.py:54",
+        "setup_cache_key": "./mtc1full.py:55",
         "timeout": 36000.0,
         "type": "time",
         "unit": "seconds",
         "version": "1",
         "warmup_time": 0
+    },
+    "mtc1mp4.atwork_subtour_destination.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.atwork_subtour_destination.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:atwork_subtour_destination",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.atwork_subtour_frequency.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.atwork_subtour_frequency.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:atwork_subtour_frequency",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.atwork_subtour_mode_choice.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.atwork_subtour_mode_choice.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:atwork_subtour_mode_choice",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.atwork_subtour_scheduling.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.atwork_subtour_scheduling.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:atwork_subtour_scheduling",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.auto_ownership_simulate.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.auto_ownership_simulate.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:auto_ownership_simulate",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.cdap_simulate.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.cdap_simulate.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:cdap_simulate",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.free_parking.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.free_parking.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:free_parking",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.joint_tour_composition.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.joint_tour_composition.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:joint_tour_composition",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.joint_tour_destination.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.joint_tour_destination.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:joint_tour_destination",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.joint_tour_frequency.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.joint_tour_frequency.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:joint_tour_frequency",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.joint_tour_participation.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.joint_tour_participation.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:joint_tour_participation",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.joint_tour_scheduling.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.joint_tour_scheduling.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:joint_tour_scheduling",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.mandatory_tour_frequency.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.mandatory_tour_frequency.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:mandatory_tour_frequency",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.mandatory_tour_scheduling.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.mandatory_tour_scheduling.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:mandatory_tour_scheduling",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.non_mandatory_tour_destination.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.non_mandatory_tour_destination.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:non_mandatory_tour_destination",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.non_mandatory_tour_frequency.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.non_mandatory_tour_frequency.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:non_mandatory_tour_frequency",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.non_mandatory_tour_scheduling.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.non_mandatory_tour_scheduling.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:non_mandatory_tour_scheduling",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.school_location.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.school_location.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:school_location",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.stop_frequency.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.stop_frequency.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:stop_frequency",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.tour_mode_choice_simulate.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.tour_mode_choice_simulate.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:tour_mode_choice_simulate",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.trip_destination.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.trip_destination.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:trip_destination",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.trip_mode_choice.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.trip_mode_choice.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:trip_mode_choice",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.trip_purpose.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.trip_purpose.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:trip_purpose",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.trip_purpose_and_destination.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.trip_purpose_and_destination.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:trip_purpose_and_destination",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.trip_scheduling.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.trip_scheduling.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:trip_scheduling",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
+    },
+    "mtc1mp4.workplace_location.track_component": {
+        "code": "class ComponentTiming:\n    def track_component(self):\n        durations = []\n        inject.add_injectable('output_dir', model_dir(example_name, output_dir))\n        logfiler = config.log_file_path(f'timing_log.mp_households_*.csv')\n        for logfile in glob.glob(logfiler):\n            df = pd.read_csv(logfile)\n            dfq = df.query(f\"component_name=='{self.component_name}'\")\n            if len(dfq):\n                durations.append(dfq.iloc[-1].duration)\n        if len(durations):\n            return np.mean(durations)\n        else:\n            raise ValueError(\"no results available\")\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n        config_overload_dir=DYNAMIC_CONFIG_DIR,\n    )",
+        "name": "mtc1mp4.workplace_location.track_component",
+        "param_names": [],
+        "params": [],
+        "pretty_name": "MTC1_MP4:workplace_location",
+        "setup_cache_key": "./mtc1mp4.py:53",
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "s",
+        "version": "1"
     },
     "sandag1example.atwork_subtour_destination.time_component": {
         "code": "class ComponentTiming:\n    def time_component(self):\n        run_component(self.component_name)\n\n    def setup(self):\n        setup_component(\n            self.component_name, model_dir(example_name), preload_injectables,\n            config_dirs, data_dir, output_dir,\n        )\n\ndef setup_cache():\n    template_setup_cache(\n        EXAMPLE_NAME,\n        COMPONENT_NAMES,\n        BENCHMARK_SETTINGS,\n        dict(\n            read_skim_cache=SKIM_CACHE,\n            write_skim_cache=SKIM_CACHE,\n        ),\n        CONFIGS_DIRS,\n        DATA_DIR,\n        OUTPUT_DIR,\n    )",
