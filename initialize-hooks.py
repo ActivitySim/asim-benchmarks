@@ -10,6 +10,8 @@ def rec_split(s):
     rest, tail = os.path.split(s)
     if rest in ('', os.path.sep):
         return tail,
+    if rest == s:
+        return rest,
     return rec_split(rest) + (tail,)
 
 if __name__ == "__main__":
