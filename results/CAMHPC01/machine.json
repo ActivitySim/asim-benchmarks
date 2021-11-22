@@ -1,9 +1,9 @@
 {
-    "arch": "AMD64",
-    "cpu": "",
+    "arch": "x86_64",
+    "cpu": "Intel(R) Xeon(R) CPU E5-2699 v3 @2.30GHz (2 processors)",
     "machine": "CAMHPC01",
-    "num_cpu": "128",
+    "num_cpu": "72",
     "os": "Windows 2012ServerR2",
-    "ram": "",
+    "ram": "256 GB",
     "version": 1
 }

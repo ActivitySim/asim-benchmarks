@@ -1,0 +1,4965 @@
+{
+    "benchmark_version": {
+        "mtc1full.atwork_subtour_destination.time_component": "1",
+        "mtc1full.atwork_subtour_frequency.time_component": "1",
+        "mtc1full.atwork_subtour_mode_choice.time_component": "1",
+        "mtc1full.atwork_subtour_scheduling.time_component": "1",
+        "mtc1full.auto_ownership_simulate.time_component": "1",
+        "mtc1full.cdap_simulate.time_component": "1",
+        "mtc1full.free_parking.time_component": "1",
+        "mtc1full.joint_tour_composition.time_component": "1",
+        "mtc1full.joint_tour_destination.time_component": "1",
+        "mtc1full.joint_tour_frequency.time_component": "1",
+        "mtc1full.joint_tour_participation.time_component": "1",
+        "mtc1full.joint_tour_scheduling.time_component": "1",
+        "mtc1full.mandatory_tour_frequency.time_component": "1",
+        "mtc1full.mandatory_tour_scheduling.time_component": "1",
+        "mtc1full.non_mandatory_tour_destination.time_component": "1",
+        "mtc1full.non_mandatory_tour_frequency.time_component": "1",
+        "mtc1full.non_mandatory_tour_scheduling.time_component": "1",
+        "mtc1full.school_location.time_component": "1",
+        "mtc1full.stop_frequency.time_component": "1",
+        "mtc1full.tour_mode_choice_simulate.time_component": "1",
+        "mtc1full.trip_destination.time_component": "1",
+        "mtc1full.trip_mode_choice.time_component": "1",
+        "mtc1full.trip_purpose.time_component": "1",
+        "mtc1full.trip_purpose_and_destination.time_component": "1",
+        "mtc1full.trip_scheduling.time_component": "1",
+        "mtc1full.workplace_location.time_component": "1",
+        "mtc1full.write_trip_matrices.time_component": "1",
+        "mtc1mp4.atwork_subtour_destination.track_component": "1",
+        "mtc1mp4.atwork_subtour_frequency.track_component": "1",
+        "mtc1mp4.atwork_subtour_mode_choice.track_component": "1",
+        "mtc1mp4.atwork_subtour_scheduling.track_component": "1",
+        "mtc1mp4.auto_ownership_simulate.track_component": "1",
+        "mtc1mp4.cdap_simulate.track_component": "1",
+        "mtc1mp4.free_parking.track_component": "1",
+        "mtc1mp4.joint_tour_composition.track_component": "1",
+        "mtc1mp4.joint_tour_destination.track_component": "1",
+        "mtc1mp4.joint_tour_frequency.track_component": "1",
+        "mtc1mp4.joint_tour_participation.track_component": "1",
+        "mtc1mp4.joint_tour_scheduling.track_component": "1",
+        "mtc1mp4.mandatory_tour_frequency.track_component": "1",
+        "mtc1mp4.mandatory_tour_scheduling.track_component": "1",
+        "mtc1mp4.non_mandatory_tour_destination.track_component": "1",
+        "mtc1mp4.non_mandatory_tour_frequency.track_component": "1",
+        "mtc1mp4.non_mandatory_tour_scheduling.track_component": "1",
+        "mtc1mp4.school_location.track_component": "1",
+        "mtc1mp4.stop_frequency.track_component": "1",
+        "mtc1mp4.tour_mode_choice_simulate.track_component": "1",
+        "mtc1mp4.trip_destination.track_component": "1",
+        "mtc1mp4.trip_mode_choice.track_component": "1",
+        "mtc1mp4.trip_purpose.track_component": "1",
+        "mtc1mp4.trip_purpose_and_destination.track_component": "1",
+        "mtc1mp4.trip_scheduling.track_component": "1",
+        "mtc1mp4.workplace_location.track_component": "1",
+        "sandag1example.atwork_subtour_destination.time_component": "1",
+        "sandag1example.atwork_subtour_frequency.time_component": "1",
+        "sandag1example.atwork_subtour_mode_choice.time_component": "1",
+        "sandag1example.atwork_subtour_scheduling.time_component": "1",
+        "sandag1example.auto_ownership_simulate.time_component": "1",
+        "sandag1example.cdap_simulate.time_component": "1",
+        "sandag1example.free_parking.time_component": "1",
+        "sandag1example.joint_tour_composition.time_component": "1",
+        "sandag1example.joint_tour_destination.time_component": "1",
+        "sandag1example.joint_tour_frequency.time_component": "1",
+        "sandag1example.joint_tour_participation.time_component": "1",
+        "sandag1example.joint_tour_scheduling.time_component": "1",
+        "sandag1example.mandatory_tour_frequency.time_component": "1",
+        "sandag1example.mandatory_tour_scheduling.time_component": "1",
+        "sandag1example.non_mandatory_tour_destination.time_component": "1",
+        "sandag1example.non_mandatory_tour_frequency.time_component": "1",
+        "sandag1example.non_mandatory_tour_scheduling.time_component": "1",
+        "sandag1example.school_location.time_component": "1",
+        "sandag1example.stop_frequency.time_component": "1",
+        "sandag1example.tour_mode_choice_simulate.time_component": "1",
+        "sandag1example.trip_destination.time_component": "1",
+        "sandag1example.trip_mode_choice.time_component": "1",
+        "sandag1example.trip_purpose.time_component": "1",
+        "sandag1example.trip_purpose_and_destination.time_component": "1",
+        "sandag1example.trip_scheduling.time_component": "1",
+        "sandag1example.workplace_location.time_component": "1",
+        "sandag1example.write_trip_matrices.time_component": "1",
+        "sandag1full.atwork_subtour_destination.time_component": "1",
+        "sandag1full.atwork_subtour_frequency.time_component": "1",
+        "sandag1full.atwork_subtour_mode_choice.time_component": "1",
+        "sandag1full.atwork_subtour_scheduling.time_component": "1",
+        "sandag1full.auto_ownership_simulate.time_component": "1",
+        "sandag1full.cdap_simulate.time_component": "1",
+        "sandag1full.free_parking.time_component": "1",
+        "sandag1full.joint_tour_composition.time_component": "1",
+        "sandag1full.joint_tour_destination.time_component": "1",
+        "sandag1full.joint_tour_frequency.time_component": "1",
+        "sandag1full.joint_tour_participation.time_component": "1",
+        "sandag1full.joint_tour_scheduling.time_component": "1",
+        "sandag1full.mandatory_tour_frequency.time_component": "1",
+        "sandag1full.mandatory_tour_scheduling.time_component": "1",
+        "sandag1full.non_mandatory_tour_destination.time_component": "1",
+        "sandag1full.non_mandatory_tour_frequency.time_component": "1",
+        "sandag1full.non_mandatory_tour_scheduling.time_component": "1",
+        "sandag1full.school_location.time_component": "1",
+        "sandag1full.stop_frequency.time_component": "1",
+        "sandag1full.tour_mode_choice_simulate.time_component": "1",
+        "sandag1full.trip_destination.time_component": "1",
+        "sandag1full.trip_mode_choice.time_component": "1",
+        "sandag1full.trip_purpose.time_component": "1",
+        "sandag1full.trip_purpose_and_destination.time_component": "1",
+        "sandag1full.trip_scheduling.time_component": "1",
+        "sandag1full.workplace_location.time_component": "1",
+        "sandag1full.write_trip_matrices.time_component": "1",
+        "sandag2example.atwork_subtour_destination.time_component": "1",
+        "sandag2example.atwork_subtour_frequency.time_component": "1",
+        "sandag2example.atwork_subtour_mode_choice.time_component": "1",
+        "sandag2example.atwork_subtour_scheduling.time_component": "1",
+        "sandag2example.auto_ownership_simulate.time_component": "1",
+        "sandag2example.cdap_simulate.time_component": "1",
+        "sandag2example.free_parking.time_component": "1",
+        "sandag2example.joint_tour_composition.time_component": "1",
+        "sandag2example.joint_tour_destination.time_component": "1",
+        "sandag2example.joint_tour_frequency.time_component": "1",
+        "sandag2example.joint_tour_participation.time_component": "1",
+        "sandag2example.joint_tour_scheduling.time_component": "1",
+        "sandag2example.mandatory_tour_frequency.time_component": "1",
+        "sandag2example.mandatory_tour_scheduling.time_component": "1",
+        "sandag2example.non_mandatory_tour_destination.time_component": "1",
+        "sandag2example.non_mandatory_tour_frequency.time_component": "1",
+        "sandag2example.non_mandatory_tour_scheduling.time_component": "1",
+        "sandag2example.school_location.time_component": "1",
+        "sandag2example.stop_frequency.time_component": "1",
+        "sandag2example.tour_mode_choice_simulate.time_component": "1",
+        "sandag2example.trip_destination.time_component": "1",
+        "sandag2example.trip_mode_choice.time_component": "1",
+        "sandag2example.trip_purpose.time_component": "1",
+        "sandag2example.trip_purpose_and_destination.time_component": "1",
+        "sandag2example.trip_scheduling.time_component": "1",
+        "sandag2example.workplace_location.time_component": "1",
+        "sandag2example.write_trip_matrices.time_component": "1",
+        "sandag2full.atwork_subtour_destination.time_component": "1",
+        "sandag2full.atwork_subtour_frequency.time_component": "1",
+        "sandag2full.atwork_subtour_mode_choice.time_component": "1",
+        "sandag2full.atwork_subtour_scheduling.time_component": "1",
+        "sandag2full.auto_ownership_simulate.time_component": "1",
+        "sandag2full.cdap_simulate.time_component": "1",
+        "sandag2full.free_parking.time_component": "1",
+        "sandag2full.joint_tour_composition.time_component": "1",
+        "sandag2full.joint_tour_destination.time_component": "1",
+        "sandag2full.joint_tour_frequency.time_component": "1",
+        "sandag2full.joint_tour_participation.time_component": "1",
+        "sandag2full.joint_tour_scheduling.time_component": "1",
+        "sandag2full.mandatory_tour_frequency.time_component": "1",
+        "sandag2full.mandatory_tour_scheduling.time_component": "1",
+        "sandag2full.non_mandatory_tour_destination.time_component": "1",
+        "sandag2full.non_mandatory_tour_frequency.time_component": "1",
+        "sandag2full.non_mandatory_tour_scheduling.time_component": "1",
+        "sandag2full.school_location.time_component": "1",
+        "sandag2full.stop_frequency.time_component": "1",
+        "sandag2full.tour_mode_choice_simulate.time_component": "1",
+        "sandag2full.trip_destination.time_component": "1",
+        "sandag2full.trip_mode_choice.time_component": "1",
+        "sandag2full.trip_purpose.time_component": "1",
+        "sandag2full.trip_purpose_and_destination.time_component": "1",
+        "sandag2full.trip_scheduling.time_component": "1",
+        "sandag2full.workplace_location.time_component": "1",
+        "sandag2full.write_trip_matrices.time_component": "1",
+        "sandag3example.atwork_subtour_destination.time_component": "1",
+        "sandag3example.atwork_subtour_frequency.time_component": "1",
+        "sandag3example.atwork_subtour_mode_choice.time_component": "1",
+        "sandag3example.atwork_subtour_scheduling.time_component": "1",
+        "sandag3example.auto_ownership_simulate.time_component": "1",
+        "sandag3example.cdap_simulate.time_component": "1",
+        "sandag3example.free_parking.time_component": "1",
+        "sandag3example.joint_tour_composition.time_component": "1",
+        "sandag3example.joint_tour_destination.time_component": "1",
+        "sandag3example.joint_tour_frequency.time_component": "1",
+        "sandag3example.joint_tour_participation.time_component": "1",
+        "sandag3example.joint_tour_scheduling.time_component": "1",
+        "sandag3example.mandatory_tour_frequency.time_component": "1",
+        "sandag3example.mandatory_tour_scheduling.time_component": "1",
+        "sandag3example.non_mandatory_tour_destination.time_component": "1",
+        "sandag3example.non_mandatory_tour_frequency.time_component": "1",
+        "sandag3example.non_mandatory_tour_scheduling.time_component": "1",
+        "sandag3example.school_location.time_component": "1",
+        "sandag3example.stop_frequency.time_component": "1",
+        "sandag3example.tour_mode_choice_simulate.time_component": "1",
+        "sandag3example.trip_destination.time_component": "1",
+        "sandag3example.trip_mode_choice.time_component": "1",
+        "sandag3example.trip_purpose.time_component": "1",
+        "sandag3example.trip_purpose_and_destination.time_component": "1",
+        "sandag3example.trip_scheduling.time_component": "1",
+        "sandag3example.workplace_location.time_component": "1",
+        "sandag3example.write_trip_matrices.time_component": "1",
+        "sandag3full.atwork_subtour_destination.time_component": "1",
+        "sandag3full.atwork_subtour_frequency.time_component": "1",
+        "sandag3full.atwork_subtour_mode_choice.time_component": "1",
+        "sandag3full.atwork_subtour_scheduling.time_component": "1",
+        "sandag3full.auto_ownership_simulate.time_component": "1",
+        "sandag3full.cdap_simulate.time_component": "1",
+        "sandag3full.free_parking.time_component": "1",
+        "sandag3full.joint_tour_composition.time_component": "1",
+        "sandag3full.joint_tour_destination.time_component": "1",
+        "sandag3full.joint_tour_frequency.time_component": "1",
+        "sandag3full.joint_tour_participation.time_component": "1",
+        "sandag3full.joint_tour_scheduling.time_component": "1",
+        "sandag3full.mandatory_tour_frequency.time_component": "1",
+        "sandag3full.mandatory_tour_scheduling.time_component": "1",
+        "sandag3full.non_mandatory_tour_destination.time_component": "1",
+        "sandag3full.non_mandatory_tour_frequency.time_component": "1",
+        "sandag3full.non_mandatory_tour_scheduling.time_component": "1",
+        "sandag3full.school_location.time_component": "1",
+        "sandag3full.stop_frequency.time_component": "1",
+        "sandag3full.tour_mode_choice_simulate.time_component": "1",
+        "sandag3full.trip_destination.time_component": "1",
+        "sandag3full.trip_mode_choice.time_component": "1",
+        "sandag3full.trip_purpose.time_component": "1",
+        "sandag3full.trip_purpose_and_destination.time_component": "1",
+        "sandag3full.trip_scheduling.time_component": "1",
+        "sandag3full.workplace_location.time_component": "1",
+        "sandag3full.write_trip_matrices.time_component": "1"
+    },
+    "commit_hash": "d1e73b6f6f5b7d6fbd7fdbe0aa606bf5b35605f5",
+    "date": 1636395047000,
+    "ended_at": {
+        "mtc1full.atwork_subtour_destination.time_component": 1637173129608,
+        "mtc1full.atwork_subtour_frequency.time_component": 1637173185577,
+        "mtc1full.atwork_subtour_mode_choice.time_component": 1637173249659,
+        "mtc1full.atwork_subtour_scheduling.time_component": 1637173319344,
+        "mtc1full.auto_ownership_simulate.time_component": 1637173372115,
+        "mtc1full.cdap_simulate.time_component": 1637173436095,
+        "mtc1full.free_parking.time_component": 1637173489466,
+        "mtc1full.joint_tour_composition.time_component": 1637173543036,
+        "mtc1full.joint_tour_destination.time_component": 1637173610516,
+        "mtc1full.joint_tour_frequency.time_component": 1637173664587,
+        "mtc1full.joint_tour_participation.time_component": 1637173722161,
+        "mtc1full.joint_tour_scheduling.time_component": 1637173778731,
+        "mtc1full.mandatory_tour_frequency.time_component": 1637173833199,
+        "mtc1full.mandatory_tour_scheduling.time_component": 1637174097767,
+        "mtc1full.non_mandatory_tour_destination.time_component": 1637174356630,
+        "mtc1full.non_mandatory_tour_frequency.time_component": 1637174462352,
+        "mtc1full.non_mandatory_tour_scheduling.time_component": 1637174584182,
+        "mtc1full.school_location.time_component": 1637174710923,
+        "mtc1full.stop_frequency.time_component": 1637174776306,
+        "mtc1full.tour_mode_choice_simulate.time_component": 1637174865611,
+        "mtc1full.trip_destination.time_component": 1637175369513,
+        "mtc1full.trip_mode_choice.time_component": 1637175485741,
+        "mtc1full.trip_purpose.time_component": 1637175544213,
+        "mtc1full.trip_purpose_and_destination.time_component": 1637175603887,
+        "mtc1full.trip_scheduling.time_component": 1637175698495,
+        "mtc1full.workplace_location.time_component": 1637175950852,
+        "mtc1full.write_trip_matrices.time_component": 1637176027346,
+        "mtc1mp4.atwork_subtour_destination.track_component": 1637176266710,
+        "mtc1mp4.atwork_subtour_frequency.track_component": 1637176268427,
+        "mtc1mp4.atwork_subtour_mode_choice.track_component": 1637176270142,
+        "mtc1mp4.atwork_subtour_scheduling.track_component": 1637176271856,
+        "mtc1mp4.auto_ownership_simulate.track_component": 1637176273473,
+        "mtc1mp4.cdap_simulate.track_component": 1637176275087,
+        "mtc1mp4.free_parking.track_component": 1637176276804,
+        "mtc1mp4.joint_tour_composition.track_component": 1637176278519,
+        "mtc1mp4.joint_tour_destination.track_component": 1637176280133,
+        "mtc1mp4.joint_tour_frequency.track_component": 1637176281750,
+        "mtc1mp4.joint_tour_participation.track_component": 1637176283364,
+        "mtc1mp4.joint_tour_scheduling.track_component": 1637176285079,
+        "mtc1mp4.mandatory_tour_frequency.track_component": 1637176286695,
+        "mtc1mp4.mandatory_tour_scheduling.track_component": 1637176288411,
+        "mtc1mp4.non_mandatory_tour_destination.track_component": 1637176290126,
+        "mtc1mp4.non_mandatory_tour_frequency.track_component": 1637176291841,
+        "mtc1mp4.non_mandatory_tour_scheduling.track_component": 1637176293457,
+        "mtc1mp4.school_location.track_component": 1637176295075,
+        "mtc1mp4.stop_frequency.track_component": 1637176296793,
+        "mtc1mp4.tour_mode_choice_simulate.track_component": 1637176298508,
+        "mtc1mp4.trip_destination.track_component": 1637176300123,
+        "mtc1mp4.trip_mode_choice.track_component": 1637176301737,
+        "mtc1mp4.trip_purpose.track_component": 1637176303453,
+        "mtc1mp4.trip_purpose_and_destination.track_component": 1637176305169,
+        "mtc1mp4.trip_scheduling.track_component": 1637176306784,
+        "mtc1mp4.workplace_location.track_component": 1637176308500,
+        "sandag1example.atwork_subtour_destination.time_component": 1637177583463,
+        "sandag1example.atwork_subtour_frequency.time_component": 1637177590386,
+        "sandag1example.atwork_subtour_mode_choice.time_component": 1637177600113,
+        "sandag1example.atwork_subtour_scheduling.time_component": 1637177610140,
+        "sandag1example.auto_ownership_simulate.time_component": 1637177614262,
+        "sandag1example.cdap_simulate.time_component": 1637177629792,
+        "sandag1example.free_parking.time_component": 1637177634514,
+        "sandag1example.joint_tour_composition.time_component": 1637177639233,
+        "sandag1example.joint_tour_destination.time_component": 1637177659169,
+        "sandag1example.joint_tour_frequency.time_component": 1637177664693,
+        "sandag1example.joint_tour_participation.time_component": 1637177680925,
+        "sandag1example.joint_tour_scheduling.time_component": 1637177688851,
+        "sandag1example.mandatory_tour_frequency.time_component": 1637177694874,
+        "sandag1example.mandatory_tour_scheduling.time_component": 1637177911301,
+        "sandag1example.non_mandatory_tour_destination.time_component": 1637178075680,
+        "sandag1example.non_mandatory_tour_frequency.time_component": 1637178130752,
+        "sandag1example.non_mandatory_tour_scheduling.time_component": 1637178205643,
+        "sandag1example.school_location.time_component": 1637178279131,
+        "sandag1example.stop_frequency.time_component": 1637178292762,
+        "sandag1example.tour_mode_choice_simulate.time_component": 1637178340228,
+        "sandag1example.trip_destination.time_component": 1637178623822,
+        "sandag1example.trip_mode_choice.time_component": 1637178688301,
+        "sandag1example.trip_purpose.time_component": 1637178695927,
+        "sandag1example.trip_purpose_and_destination.time_component": 1637178705454,
+        "sandag1example.trip_scheduling.time_component": 1637178746914,
+        "sandag1example.workplace_location.time_component": 1637178863544,
+        "sandag1example.write_trip_matrices.time_component": 1637178878076,
+        "sandag1full.atwork_subtour_destination.time_component": 1637182081236,
+        "sandag1full.atwork_subtour_frequency.time_component": 1637182081237,
+        "sandag1full.atwork_subtour_mode_choice.time_component": 1637182081238,
+        "sandag1full.atwork_subtour_scheduling.time_component": 1637182081238,
+        "sandag1full.auto_ownership_simulate.time_component": 1637182081239,
+        "sandag1full.cdap_simulate.time_component": 1637182081239,
+        "sandag1full.free_parking.time_component": 1637182081240,
+        "sandag1full.joint_tour_composition.time_component": 1637182081240,
+        "sandag1full.joint_tour_destination.time_component": 1637182081241,
+        "sandag1full.joint_tour_frequency.time_component": 1637182081241,
+        "sandag1full.joint_tour_participation.time_component": 1637182081242,
+        "sandag1full.joint_tour_scheduling.time_component": 1637182081242,
+        "sandag1full.mandatory_tour_frequency.time_component": 1637182081243,
+        "sandag1full.mandatory_tour_scheduling.time_component": 1637182081243,
+        "sandag1full.non_mandatory_tour_destination.time_component": 1637182081244,
+        "sandag1full.non_mandatory_tour_frequency.time_component": 1637182081244,
+        "sandag1full.non_mandatory_tour_scheduling.time_component": 1637182081245,
+        "sandag1full.school_location.time_component": 1637182081245,
+        "sandag1full.stop_frequency.time_component": 1637182081246,
+        "sandag1full.tour_mode_choice_simulate.time_component": 1637182081246,
+        "sandag1full.trip_destination.time_component": 1637182081247,
+        "sandag1full.trip_mode_choice.time_component": 1637182081247,
+        "sandag1full.trip_purpose.time_component": 1637182081248,
+        "sandag1full.trip_purpose_and_destination.time_component": 1637182081248,
+        "sandag1full.trip_scheduling.time_component": 1637182081249,
+        "sandag1full.workplace_location.time_component": 1637182081249,
+        "sandag1full.write_trip_matrices.time_component": 1637182081250,
+        "sandag2example.atwork_subtour_destination.time_component": 1637183485131,
+        "sandag2example.atwork_subtour_frequency.time_component": 1637183492256,
+        "sandag2example.atwork_subtour_mode_choice.time_component": 1637183502783,
+        "sandag2example.atwork_subtour_scheduling.time_component": 1637183513211,
+        "sandag2example.auto_ownership_simulate.time_component": 1637183517533,
+        "sandag2example.cdap_simulate.time_component": 1637183533563,
+        "sandag2example.free_parking.time_component": 1637183538483,
+        "sandag2example.joint_tour_composition.time_component": 1637183543303,
+        "sandag2example.joint_tour_destination.time_component": 1637183564440,
+        "sandag2example.joint_tour_frequency.time_component": 1637183570164,
+        "sandag2example.joint_tour_participation.time_component": 1637183586397,
+        "sandag2example.joint_tour_scheduling.time_component": 1637183594922,
+        "sandag2example.mandatory_tour_frequency.time_component": 1637183601246,
+        "sandag2example.mandatory_tour_scheduling.time_component": 1637183817873,
+        "sandag2example.non_mandatory_tour_destination.time_component": 1637184014681,
+        "sandag2example.non_mandatory_tour_frequency.time_component": 1637184070654,
+        "sandag2example.non_mandatory_tour_scheduling.time_component": 1637184161760,
+        "sandag2example.school_location.time_component": 1637184251664,
+        "sandag2example.stop_frequency.time_component": 1637184265296,
+        "sandag2example.tour_mode_choice_simulate.time_component": 1637184316764,
+        "sandag2example.trip_destination.time_component": 1637184646402,
+        "sandag2example.trip_mode_choice.time_component": 1637184711383,
+        "sandag2example.trip_purpose.time_component": 1637184719208,
+        "sandag2example.trip_purpose_and_destination.time_component": 1637184728935,
+        "sandag2example.trip_scheduling.time_component": 1637184771394,
+        "sandag2example.workplace_location.time_component": 1637184902838,
+        "sandag2example.write_trip_matrices.time_component": 1637184917870,
+        "sandag2full.atwork_subtour_destination.time_component": 1637204486146,
+        "sandag2full.atwork_subtour_frequency.time_component": 1637204842707,
+        "sandag2full.atwork_subtour_mode_choice.time_component": 1637205255620,
+        "sandag2full.atwork_subtour_scheduling.time_component": 1637205629796,
+        "sandag2full.auto_ownership_simulate.time_component": 1637205985653,
+        "sandag2full.cdap_simulate.time_component": 1637206375543,
+        "sandag2full.free_parking.time_component": 1637206730099,
+        "sandag2full.joint_tour_composition.time_component": 1637207088358,
+        "sandag2full.joint_tour_destination.time_component": 1637207498970,
+        "sandag2full.joint_tour_frequency.time_component": 1637207865944,
+        "sandag2full.joint_tour_participation.time_component": 1637208238032,
+        "sandag2full.joint_tour_scheduling.time_component": 1637208615917,
+        "sandag2full.mandatory_tour_frequency.time_component": 1637208988800,
+        "sandag2full.mandatory_tour_scheduling.time_component": 1637209592802,
+        "sandag2full.non_mandatory_tour_destination.time_component": 1637210413007,
+        "sandag2full.non_mandatory_tour_frequency.time_component": 1637210820915,
+        "sandag2full.non_mandatory_tour_scheduling.time_component": 1637211268262,
+        "sandag2full.school_location.time_component": 1637211785778,
+        "sandag2full.stop_frequency.time_component": 1637212147039,
+        "sandag2full.tour_mode_choice_simulate.time_component": 1637212991166,
+        "sandag2full.trip_destination.time_component": 1637216039920,
+        "sandag2full.trip_mode_choice.time_component": 1637216476758,
+        "sandag2full.trip_purpose.time_component": 1637216836221,
+        "sandag2full.trip_purpose_and_destination.time_component": 1637217209601,
+        "sandag2full.trip_scheduling.time_component": 1637217626420,
+        "sandag2full.workplace_location.time_component": 1637218411694,
+        "sandag2full.write_trip_matrices.time_component": 1637218898976,
+        "sandag3example.atwork_subtour_destination.time_component": 1637221575292,
+        "sandag3example.atwork_subtour_frequency.time_component": 1637221583016,
+        "sandag3example.atwork_subtour_mode_choice.time_component": 1637221595046,
+        "sandag3example.atwork_subtour_scheduling.time_component": 1637221605773,
+        "sandag3example.auto_ownership_simulate.time_component": 1637221610195,
+        "sandag3example.cdap_simulate.time_component": 1637221626225,
+        "sandag3example.free_parking.time_component": 1637221631347,
+        "sandag3example.joint_tour_composition.time_component": 1637221636269,
+        "sandag3example.joint_tour_destination.time_component": 1637221664212,
+        "sandag3example.joint_tour_frequency.time_component": 1637221670034,
+        "sandag3example.joint_tour_participation.time_component": 1637221686867,
+        "sandag3example.joint_tour_scheduling.time_component": 1637221695493,
+        "sandag3example.mandatory_tour_frequency.time_component": 1637221701917,
+        "sandag3example.mandatory_tour_scheduling.time_component": 1637222008128,
+        "sandag3example.non_mandatory_tour_destination.time_component": 1637222532751,
+        "sandag3example.non_mandatory_tour_frequency.time_component": 1637222593540,
+        "sandag3example.non_mandatory_tour_scheduling.time_component": 1637222673936,
+        "sandag3example.school_location.time_component": 1637222931300,
+        "sandag3example.stop_frequency.time_component": 1637222946431,
+        "sandag3example.tour_mode_choice_simulate.time_component": 1637223026427,
+        "sandag3example.trip_destination.time_component": 1637223546145,
+        "sandag3example.trip_mode_choice.time_component": 1637223651963,
+        "sandag3example.trip_purpose.time_component": 1637223660688,
+        "sandag3example.trip_purpose_and_destination.time_component": 1637223671314,
+        "sandag3example.trip_scheduling.time_component": 1637223713673,
+        "sandag3example.workplace_location.time_component": 1637224066830,
+        "sandag3example.write_trip_matrices.time_component": 1637224080158,
+        "sandag3full.atwork_subtour_destination.time_component": 1637240134575,
+        "sandag3full.atwork_subtour_frequency.time_component": 1637240236487,
+        "sandag3full.atwork_subtour_mode_choice.time_component": 1637240356518,
+        "sandag3full.atwork_subtour_scheduling.time_component": 1637240465339,
+        "sandag3full.auto_ownership_simulate.time_component": 1637240570657,
+        "sandag3full.cdap_simulate.time_component": 1637240688785,
+        "sandag3full.free_parking.time_component": 1637240795703,
+        "sandag3full.joint_tour_composition.time_component": 1637240903221,
+        "sandag3full.joint_tour_destination.time_component": 1637241037967,
+        "sandag3full.joint_tour_frequency.time_component": 1637241148588,
+        "sandag3full.joint_tour_participation.time_component": 1637241258413,
+        "sandag3full.joint_tour_scheduling.time_component": 1637241368233,
+        "sandag3full.mandatory_tour_frequency.time_component": 1637241477853,
+        "sandag3full.mandatory_tour_scheduling.time_component": 1637241813792,
+        "sandag3full.non_mandatory_tour_destination.time_component": 1637242449424,
+        "sandag3full.non_mandatory_tour_frequency.time_component": 1637242599282,
+        "sandag3full.non_mandatory_tour_scheduling.time_component": 1637242766960,
+        "sandag3full.school_location.time_component": 1637243095892,
+        "sandag3full.stop_frequency.time_component": 1637243209114,
+        "sandag3full.tour_mode_choice_simulate.time_component": 1637243428341,
+        "sandag3full.trip_destination.time_component": 1637244866750,
+        "sandag3full.trip_mode_choice.time_component": 1637245123514,
+        "sandag3full.trip_purpose.time_component": 1637245231032,
+        "sandag3full.trip_purpose_and_destination.time_component": 1637245355372,
+        "sandag3full.trip_scheduling.time_component": 1637245491319,
+        "sandag3full.workplace_location.time_component": 1637246104431,
+        "sandag3full.write_trip_matrices.time_component": 1637246251187
+    },
+    "env_name": "conda-py3.9-coverage-cytoolz-numba-numpy-openmatrix-orca-pandas-psutil-pyarrow-pytables-pytest-pyyaml-requests-toolz",
+    "params": {
+        "arch": "x86_64",
+        "coverage": "",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2699 v3 @2.30GHz (2 processors)",
+        "cytoolz": "",
+        "machine": "CAMHPC01",
+        "num_cpu": "72",
+        "numba": "",
+        "numpy": "",
+        "openmatrix": "",
+        "orca": "",
+        "os": "Windows 2012ServerR2",
+        "pandas": "",
+        "psutil": "",
+        "pyarrow": "",
+        "pytables": "",
+        "pytest": "",
+        "python": "3.9",
+        "pyyaml": "",
+        "ram": "256 GB",
+        "requests": "",
+        "toolz": ""
+    },
+    "profiles": {},
+    "python": "3.9",
+    "requirements": {
+        "coverage": "",
+        "cytoolz": "",
+        "numba": "",
+        "numpy": "",
+        "openmatrix": "",
+        "orca": "",
+        "pandas": "",
+        "psutil": "",
+        "pyarrow": "",
+        "pytables": "",
+        "pytest": "",
+        "pyyaml": "",
+        "requests": "",
+        "toolz": ""
+    },
+    "results": {
+        "mtc1full.atwork_subtour_destination.time_component": {
+            "result": [
+                38.94297211
+            ],
+            "samples": [
+                [
+                    38.94297211
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 38.94297211,
+                    "mean": 38.94297211,
+                    "min": 38.94297211,
+                    "number": 1,
+                    "q_25": 38.94297211,
+                    "q_75": 38.94297211,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.atwork_subtour_frequency.time_component": {
+            "result": [
+                2.262611894999999
+            ],
+            "samples": [
+                [
+                    2.262611894999999
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 2.262611894999999,
+                    "mean": 2.262611894999999,
+                    "min": 2.262611894999999,
+                    "number": 1,
+                    "q_25": 2.262611894999999,
+                    "q_75": 2.262611894999999,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.atwork_subtour_mode_choice.time_component": {
+            "result": [
+                4.795270813000002
+            ],
+            "samples": [
+                [
+                    4.795270813000002
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 4.795270813000002,
+                    "mean": 4.795270813000002,
+                    "min": 4.795270813000002,
+                    "number": 1,
+                    "q_25": 4.795270813000002,
+                    "q_75": 4.795270813000002,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.atwork_subtour_scheduling.time_component": {
+            "result": [
+                7.586556039000001
+            ],
+            "samples": [
+                [
+                    7.586556039000001
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 7.586556039000001,
+                    "mean": 7.586556039000001,
+                    "min": 7.586556039000001,
+                    "number": 1,
+                    "q_25": 7.586556039000001,
+                    "q_75": 7.586556039000001,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.auto_ownership_simulate.time_component": {
+            "result": [
+                0.767052047
+            ],
+            "samples": [
+                [
+                    0.767052047
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 0.767052047,
+                    "mean": 0.767052047,
+                    "min": 0.767052047,
+                    "number": 1,
+                    "q_25": 0.767052047,
+                    "q_75": 0.767052047,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.cdap_simulate.time_component": {
+            "result": [
+                12.087890801
+            ],
+            "samples": [
+                [
+                    12.087890801
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 12.087890801,
+                    "mean": 12.087890801,
+                    "min": 12.087890801,
+                    "number": 1,
+                    "q_25": 12.087890801,
+                    "q_75": 12.087890801,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.free_parking.time_component": {
+            "result": [
+                1.501741244999998
+            ],
+            "samples": [
+                [
+                    1.501741244999998
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.501741244999998,
+                    "mean": 1.501741244999998,
+                    "min": 1.501741244999998,
+                    "number": 1,
+                    "q_25": 1.501741244999998,
+                    "q_75": 1.501741244999998,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.joint_tour_composition.time_component": {
+            "result": [
+                0.5855632039999961
+            ],
+            "samples": [
+                [
+                    0.5855632039999961
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 0.5855632039999961,
+                    "mean": 0.5855632039999961,
+                    "min": 0.5855632039999961,
+                    "number": 1,
+                    "q_25": 0.5855632039999961,
+                    "q_75": 0.5855632039999961,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.joint_tour_destination.time_component": {
+            "result": [
+                14.487360725000002
+            ],
+            "samples": [
+                [
+                    14.487360725000002
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 14.487360725000002,
+                    "mean": 14.487360725000002,
+                    "min": 14.487360725000002,
+                    "number": 1,
+                    "q_25": 14.487360725000002,
+                    "q_75": 14.487360725000002,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.joint_tour_frequency.time_component": {
+            "result": [
+                1.5109349830000056
+            ],
+            "samples": [
+                [
+                    1.5109349830000056
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.5109349830000056,
+                    "mean": 1.5109349830000056,
+                    "min": 1.5109349830000056,
+                    "number": 1,
+                    "q_25": 1.5109349830000056,
+                    "q_75": 1.5109349830000056,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.joint_tour_participation.time_component": {
+            "result": [
+                4.737575098000001
+            ],
+            "samples": [
+                [
+                    4.737575098000001
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 4.737575098000001,
+                    "mean": 4.737575098000001,
+                    "min": 4.737575098000001,
+                    "number": 1,
+                    "q_25": 4.737575098000001,
+                    "q_75": 4.737575098000001,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.joint_tour_scheduling.time_component": {
+            "result": [
+                3.4324511790000045
+            ],
+            "samples": [
+                [
+                    3.4324511790000045
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 3.4324511790000045,
+                    "mean": 3.4324511790000045,
+                    "min": 3.4324511790000045,
+                    "number": 1,
+                    "q_25": 3.4324511790000045,
+                    "q_75": 3.4324511790000045,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.mandatory_tour_frequency.time_component": {
+            "result": [
+                2.624009947999994
+            ],
+            "samples": [
+                [
+                    2.624009947999994
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 2.624009947999994,
+                    "mean": 2.624009947999994,
+                    "min": 2.624009947999994,
+                    "number": 1,
+                    "q_25": 2.624009947999994,
+                    "q_75": 2.624009947999994,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.mandatory_tour_scheduling.time_component": {
+            "result": [
+                211.969002187
+            ],
+            "samples": [
+                [
+                    211.969002187
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 211.969002187,
+                    "mean": 211.969002187,
+                    "min": 211.969002187,
+                    "number": 1,
+                    "q_25": 211.969002187,
+                    "q_75": 211.969002187,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.non_mandatory_tour_destination.time_component": {
+            "result": [
+                200.04050320300001
+            ],
+            "samples": [
+                [
+                    200.04050320300001
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 200.04050320300001,
+                    "mean": 200.04050320300001,
+                    "min": 200.04050320300001,
+                    "number": 1,
+                    "q_25": 200.04050320300001,
+                    "q_75": 200.04050320300001,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.non_mandatory_tour_frequency.time_component": {
+            "result": [
+                52.542840593
+            ],
+            "samples": [
+                [
+                    52.542840593
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 52.542840593,
+                    "mean": 52.542840593,
+                    "min": 52.542840593,
+                    "number": 1,
+                    "q_25": 52.542840593,
+                    "q_75": 52.542840593,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.non_mandatory_tour_scheduling.time_component": {
+            "result": [
+                66.99428608
+            ],
+            "samples": [
+                [
+                    66.99428608
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 66.99428608,
+                    "mean": 66.99428608,
+                    "min": 66.99428608,
+                    "number": 1,
+                    "q_25": 66.99428608,
+                    "q_75": 66.99428608,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.school_location.time_component": {
+            "result": [
+                74.34086952700001
+            ],
+            "samples": [
+                [
+                    74.34086952700001
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 74.34086952700001,
+                    "mean": 74.34086952700001,
+                    "min": 74.34086952700001,
+                    "number": 1,
+                    "q_25": 74.34086952700001,
+                    "q_75": 74.34086952700001,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.stop_frequency.time_component": {
+            "result": [
+                8.860705295000002
+            ],
+            "samples": [
+                [
+                    8.860705295000002
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 8.860705295000002,
+                    "mean": 8.860705295000002,
+                    "min": 8.860705295000002,
+                    "number": 1,
+                    "q_25": 8.860705295000002,
+                    "q_75": 8.860705295000002,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.tour_mode_choice_simulate.time_component": {
+            "result": [
+                36.223011592999995
+            ],
+            "samples": [
+                [
+                    36.223011592999995
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 36.223011592999995,
+                    "mean": 36.223011592999995,
+                    "min": 36.223011592999995,
+                    "number": 1,
+                    "q_25": 36.223011592999995,
+                    "q_75": 36.223011592999995,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.trip_destination.time_component": {
+            "result": [
+                447.864126791
+            ],
+            "samples": [
+                [
+                    447.864126791
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 447.864126791,
+                    "mean": 447.864126791,
+                    "min": 447.864126791,
+                    "number": 1,
+                    "q_25": 447.864126791,
+                    "q_75": 447.864126791,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.trip_mode_choice.time_component": {
+            "result": [
+                56.33313343100001
+            ],
+            "samples": [
+                [
+                    56.33313343100001
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 56.33313343100001,
+                    "mean": 56.33313343100001,
+                    "min": 56.33313343100001,
+                    "number": 1,
+                    "q_25": 56.33313343100001,
+                    "q_75": 56.33313343100001,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.trip_purpose.time_component": {
+            "result": [
+                1.2423295729999992
+            ],
+            "samples": [
+                [
+                    1.2423295729999992
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.2423295729999992,
+                    "mean": 1.2423295729999992,
+                    "min": 1.2423295729999992,
+                    "number": 1,
+                    "q_25": 1.2423295729999992,
+                    "q_75": 1.2423295729999992,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.trip_purpose_and_destination.time_component": {
+            "result": [
+                2.246038678000005
+            ],
+            "samples": [
+                [
+                    2.246038678000005
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 2.246038678000005,
+                    "mean": 2.246038678000005,
+                    "min": 2.246038678000005,
+                    "number": 1,
+                    "q_25": 2.246038678000005,
+                    "q_75": 2.246038678000005,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.trip_scheduling.time_component": {
+            "result": [
+                36.17066605400001
+            ],
+            "samples": [
+                [
+                    36.17066605400001
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 36.17066605400001,
+                    "mean": 36.17066605400001,
+                    "min": 36.17066605400001,
+                    "number": 1,
+                    "q_25": 36.17066605400001,
+                    "q_75": 36.17066605400001,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.workplace_location.time_component": {
+            "result": [
+                198.575225257
+            ],
+            "samples": [
+                [
+                    198.575225257
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 198.575225257,
+                    "mean": 198.575225257,
+                    "min": 198.575225257,
+                    "number": 1,
+                    "q_25": 198.575225257,
+                    "q_75": 198.575225257,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1full.write_trip_matrices.time_component": {
+            "result": [
+                19.684022129
+            ],
+            "samples": [
+                [
+                    19.684022129
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 19.684022129,
+                    "mean": 19.684022129,
+                    "min": 19.684022129,
+                    "number": 1,
+                    "q_25": 19.684022129,
+                    "q_75": 19.684022129,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "mtc1mp4.atwork_subtour_destination.track_component": 1.3933362364768982,
+        "mtc1mp4.atwork_subtour_frequency.track_component": 0.4158986806869507,
+        "mtc1mp4.atwork_subtour_mode_choice.track_component": 1.427368700504303,
+        "mtc1mp4.atwork_subtour_scheduling.track_component": 0.772490918636322,
+        "mtc1mp4.auto_ownership_simulate.track_component": 0.23322349786758417,
+        "mtc1mp4.cdap_simulate.track_component": 7.962135434150696,
+        "mtc1mp4.free_parking.track_component": 0.19818985462188715,
+        "mtc1mp4.joint_tour_composition.track_component": 0.3883657455444336,
+        "mtc1mp4.joint_tour_destination.track_component": 3.520626127719879,
+        "mtc1mp4.joint_tour_frequency.track_component": 0.6588818430900574,
+        "mtc1mp4.joint_tour_participation.track_component": 0.8222885727882385,
+        "mtc1mp4.joint_tour_scheduling.track_component": 0.7256956696510315,
+        "mtc1mp4.mandatory_tour_frequency.track_component": 0.7562254071235657,
+        "mtc1mp4.mandatory_tour_scheduling.track_component": 7.691876411437988,
+        "mtc1mp4.non_mandatory_tour_destination.track_component": 7.177883267402649,
+        "mtc1mp4.non_mandatory_tour_frequency.track_component": 5.378907740116119,
+        "mtc1mp4.non_mandatory_tour_scheduling.track_component": 1.673104465007782,
+        "mtc1mp4.school_location.track_component": 6.146894574165344,
+        "mtc1mp4.stop_frequency.track_component": 2.0412073731422424,
+        "mtc1mp4.tour_mode_choice_simulate.track_component": 10.91972154378891,
+        "mtc1mp4.trip_destination.track_component": 42.29831260442734,
+        "mtc1mp4.trip_mode_choice.track_component": 9.318436205387115,
+        "mtc1mp4.trip_purpose.track_component": 0.2397299408912658,
+        "mtc1mp4.trip_purpose_and_destination.track_component": 0.2842712998390197,
+        "mtc1mp4.trip_scheduling.track_component": 11.560836493968964,
+        "mtc1mp4.workplace_location.track_component": 6.582061946392059,
+        "sandag1example.atwork_subtour_destination.time_component": {
+            "result": [
+                18.172639257
+            ],
+            "samples": [
+                [
+                    18.172639257
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 18.172639257,
+                    "mean": 18.172639257,
+                    "min": 18.172639257,
+                    "number": 1,
+                    "q_25": 18.172639257,
+                    "q_75": 18.172639257,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.atwork_subtour_frequency.time_component": {
+            "result": [
+                1.8863195389999996
+            ],
+            "samples": [
+                [
+                    1.8863195389999996
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.8863195389999996,
+                    "mean": 1.8863195389999996,
+                    "min": 1.8863195389999996,
+                    "number": 1,
+                    "q_25": 1.8863195389999996,
+                    "q_75": 1.8863195389999996,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.atwork_subtour_mode_choice.time_component": {
+            "result": [
+                4.477572175999999
+            ],
+            "samples": [
+                [
+                    4.477572175999999
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 4.477572175999999,
+                    "mean": 4.477572175999999,
+                    "min": 4.477572175999999,
+                    "number": 1,
+                    "q_25": 4.477572175999999,
+                    "q_75": 4.477572175999999,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.atwork_subtour_scheduling.time_component": {
+            "result": [
+                4.756413578
+            ],
+            "samples": [
+                [
+                    4.756413578
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 4.756413578,
+                    "mean": 4.756413578,
+                    "min": 4.756413578,
+                    "number": 1,
+                    "q_25": 4.756413578,
+                    "q_75": 4.756413578,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.auto_ownership_simulate.time_component": {
+            "result": [
+                0.6005349730000002
+            ],
+            "samples": [
+                [
+                    0.6005349730000002
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 0.6005349730000002,
+                    "mean": 0.6005349730000002,
+                    "min": 0.6005349730000002,
+                    "number": 1,
+                    "q_25": 0.6005349730000002,
+                    "q_75": 0.6005349730000002,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.cdap_simulate.time_component": {
+            "result": [
+                12.135923518999999
+            ],
+            "samples": [
+                [
+                    12.135923518999999
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 12.135923518999999,
+                    "mean": 12.135923518999999,
+                    "min": 12.135923518999999,
+                    "number": 1,
+                    "q_25": 12.135923518999999,
+                    "q_75": 12.135923518999999,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.free_parking.time_component": {
+            "result": [
+                1.2062629610000002
+            ],
+            "samples": [
+                [
+                    1.2062629610000002
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.2062629610000002,
+                    "mean": 1.2062629610000002,
+                    "min": 1.2062629610000002,
+                    "number": 1,
+                    "q_25": 1.2062629610000002,
+                    "q_75": 1.2062629610000002,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.joint_tour_composition.time_component": {
+            "result": [
+                0.4377069709999999
+            ],
+            "samples": [
+                [
+                    0.4377069709999999
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 0.4377069709999999,
+                    "mean": 0.4377069709999999,
+                    "min": 0.4377069709999999,
+                    "number": 1,
+                    "q_25": 0.4377069709999999,
+                    "q_75": 0.4377069709999999,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.joint_tour_destination.time_component": {
+            "result": [
+                15.590597721999998
+            ],
+            "samples": [
+                [
+                    15.590597721999998
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 15.590597721999998,
+                    "mean": 15.590597721999998,
+                    "min": 15.590597721999998,
+                    "number": 1,
+                    "q_25": 15.590597721999998,
+                    "q_75": 15.590597721999998,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.joint_tour_frequency.time_component": {
+            "result": [
+                1.4071748559999997
+            ],
+            "samples": [
+                [
+                    1.4071748559999997
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.4071748559999997,
+                    "mean": 1.4071748559999997,
+                    "min": 1.4071748559999997,
+                    "number": 1,
+                    "q_25": 1.4071748559999997,
+                    "q_75": 1.4071748559999997,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.joint_tour_participation.time_component": {
+            "result": [
+                11.842684233
+            ],
+            "samples": [
+                [
+                    11.842684233
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 11.842684233,
+                    "mean": 11.842684233,
+                    "min": 11.842684233,
+                    "number": 1,
+                    "q_25": 11.842684233,
+                    "q_75": 11.842684233,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.joint_tour_scheduling.time_component": {
+            "result": [
+                3.602098131
+            ],
+            "samples": [
+                [
+                    3.602098131
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 3.602098131,
+                    "mean": 3.602098131,
+                    "min": 3.602098131,
+                    "number": 1,
+                    "q_25": 3.602098131,
+                    "q_75": 3.602098131,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.mandatory_tour_frequency.time_component": {
+            "result": [
+                2.339472436
+            ],
+            "samples": [
+                [
+                    2.339472436
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 2.339472436,
+                    "mean": 2.339472436,
+                    "min": 2.339472436,
+                    "number": 1,
+                    "q_25": 2.339472436,
+                    "q_75": 2.339472436,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.mandatory_tour_scheduling.time_component": {
+            "result": [
+                212.18539785
+            ],
+            "samples": [
+                [
+                    212.18539785
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 212.18539785,
+                    "mean": 212.18539785,
+                    "min": 212.18539785,
+                    "number": 1,
+                    "q_25": 212.18539785,
+                    "q_75": 212.18539785,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.non_mandatory_tour_destination.time_component": {
+            "result": [
+                159.67063845
+            ],
+            "samples": [
+                [
+                    159.67063845
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 159.67063845,
+                    "mean": 159.67063845,
+                    "min": 159.67063845,
+                    "number": 1,
+                    "q_25": 159.67063845,
+                    "q_75": 159.67063845,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.non_mandatory_tour_frequency.time_component": {
+            "result": [
+                50.734384669
+            ],
+            "samples": [
+                [
+                    50.734384669
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 50.734384669,
+                    "mean": 50.734384669,
+                    "min": 50.734384669,
+                    "number": 1,
+                    "q_25": 50.734384669,
+                    "q_75": 50.734384669,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.non_mandatory_tour_scheduling.time_component": {
+            "result": [
+                70.150697611
+            ],
+            "samples": [
+                [
+                    70.150697611
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 70.150697611,
+                    "mean": 70.150697611,
+                    "min": 70.150697611,
+                    "number": 1,
+                    "q_25": 70.150697611,
+                    "q_75": 70.150697611,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.school_location.time_component": {
+            "result": [
+                69.860434158
+            ],
+            "samples": [
+                [
+                    69.860434158
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 69.860434158,
+                    "mean": 69.860434158,
+                    "min": 69.860434158,
+                    "number": 1,
+                    "q_25": 69.860434158,
+                    "q_75": 69.860434158,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.stop_frequency.time_component": {
+            "result": [
+                8.181193218
+            ],
+            "samples": [
+                [
+                    8.181193218
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 8.181193218,
+                    "mean": 8.181193218,
+                    "min": 8.181193218,
+                    "number": 1,
+                    "q_25": 8.181193218,
+                    "q_75": 8.181193218,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.tour_mode_choice_simulate.time_component": {
+            "result": [
+                42.813574587000005
+            ],
+            "samples": [
+                [
+                    42.813574587000005
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 42.813574587000005,
+                    "mean": 42.813574587000005,
+                    "min": 42.813574587000005,
+                    "number": 1,
+                    "q_25": 42.813574587000005,
+                    "q_75": 42.813574587000005,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.trip_destination.time_component": {
+            "result": [
+                276.089625812
+            ],
+            "samples": [
+                [
+                    276.089625812
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 276.089625812,
+                    "mean": 276.089625812,
+                    "min": 276.089625812,
+                    "number": 1,
+                    "q_25": 276.089625812,
+                    "q_75": 276.089625812,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.trip_mode_choice.time_component": {
+            "result": [
+                57.048041622999996
+            ],
+            "samples": [
+                [
+                    57.048041622999996
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 57.048041622999996,
+                    "mean": 57.048041622999996,
+                    "min": 57.048041622999996,
+                    "number": 1,
+                    "q_25": 57.048041622999996,
+                    "q_75": 57.048041622999996,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.trip_purpose.time_component": {
+            "result": [
+                1.0676516650000005
+            ],
+            "samples": [
+                [
+                    1.0676516650000005
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.0676516650000005,
+                    "mean": 1.0676516650000005,
+                    "min": 1.0676516650000005,
+                    "number": 1,
+                    "q_25": 1.0676516650000005,
+                    "q_75": 1.0676516650000005,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.trip_purpose_and_destination.time_component": {
+            "result": [
+                2.0780238939999993
+            ],
+            "samples": [
+                [
+                    2.0780238939999993
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 2.0780238939999993,
+                    "mean": 2.0780238939999993,
+                    "min": 2.0780238939999993,
+                    "number": 1,
+                    "q_25": 2.0780238939999993,
+                    "q_75": 2.0780238939999993,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.trip_scheduling.time_component": {
+            "result": [
+                34.020575719
+            ],
+            "samples": [
+                [
+                    34.020575719
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 34.020575719,
+                    "mean": 34.020575719,
+                    "min": 34.020575719,
+                    "number": 1,
+                    "q_25": 34.020575719,
+                    "q_75": 34.020575719,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.workplace_location.time_component": {
+            "result": [
+                113.07860223200001
+            ],
+            "samples": [
+                [
+                    113.07860223200001
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 113.07860223200001,
+                    "mean": 113.07860223200001,
+                    "min": 113.07860223200001,
+                    "number": 1,
+                    "q_25": 113.07860223200001,
+                    "q_75": 113.07860223200001,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1example.write_trip_matrices.time_component": {
+            "result": [
+                6.410647106
+            ],
+            "samples": [
+                [
+                    6.410647106
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 6.410647106,
+                    "mean": 6.410647106,
+                    "min": 6.410647106,
+                    "number": 1,
+                    "q_25": 6.410647106,
+                    "q_75": 6.410647106,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag1full.atwork_subtour_destination.time_component": null,
+        "sandag1full.atwork_subtour_frequency.time_component": null,
+        "sandag1full.atwork_subtour_mode_choice.time_component": null,
+        "sandag1full.atwork_subtour_scheduling.time_component": null,
+        "sandag1full.auto_ownership_simulate.time_component": null,
+        "sandag1full.cdap_simulate.time_component": null,
+        "sandag1full.free_parking.time_component": null,
+        "sandag1full.joint_tour_composition.time_component": null,
+        "sandag1full.joint_tour_destination.time_component": null,
+        "sandag1full.joint_tour_frequency.time_component": null,
+        "sandag1full.joint_tour_participation.time_component": null,
+        "sandag1full.joint_tour_scheduling.time_component": null,
+        "sandag1full.mandatory_tour_frequency.time_component": null,
+        "sandag1full.mandatory_tour_scheduling.time_component": null,
+        "sandag1full.non_mandatory_tour_destination.time_component": null,
+        "sandag1full.non_mandatory_tour_frequency.time_component": null,
+        "sandag1full.non_mandatory_tour_scheduling.time_component": null,
+        "sandag1full.school_location.time_component": null,
+        "sandag1full.stop_frequency.time_component": null,
+        "sandag1full.tour_mode_choice_simulate.time_component": null,
+        "sandag1full.trip_destination.time_component": null,
+        "sandag1full.trip_mode_choice.time_component": null,
+        "sandag1full.trip_purpose.time_component": null,
+        "sandag1full.trip_purpose_and_destination.time_component": null,
+        "sandag1full.trip_scheduling.time_component": null,
+        "sandag1full.workplace_location.time_component": null,
+        "sandag1full.write_trip_matrices.time_component": null,
+        "sandag2example.atwork_subtour_destination.time_component": {
+            "result": [
+                21.460899678
+            ],
+            "samples": [
+                [
+                    21.460899678
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 21.460899678,
+                    "mean": 21.460899678,
+                    "min": 21.460899678,
+                    "number": 1,
+                    "q_25": 21.460899678,
+                    "q_75": 21.460899678,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.atwork_subtour_frequency.time_component": {
+            "result": [
+                1.9156224099999992
+            ],
+            "samples": [
+                [
+                    1.9156224099999992
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.9156224099999992,
+                    "mean": 1.9156224099999992,
+                    "min": 1.9156224099999992,
+                    "number": 1,
+                    "q_25": 1.9156224099999992,
+                    "q_75": 1.9156224099999992,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.atwork_subtour_mode_choice.time_component": {
+            "result": [
+                4.96536031
+            ],
+            "samples": [
+                [
+                    4.96536031
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 4.96536031,
+                    "mean": 4.96536031,
+                    "min": 4.96536031,
+                    "number": 1,
+                    "q_25": 4.96536031,
+                    "q_75": 4.96536031,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.atwork_subtour_scheduling.time_component": {
+            "result": [
+                4.878663583000001
+            ],
+            "samples": [
+                [
+                    4.878663583000001
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 4.878663583000001,
+                    "mean": 4.878663583000001,
+                    "min": 4.878663583000001,
+                    "number": 1,
+                    "q_25": 4.878663583000001,
+                    "q_75": 4.878663583000001,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.auto_ownership_simulate.time_component": {
+            "result": [
+                0.6030820609999998
+            ],
+            "samples": [
+                [
+                    0.6030820609999998
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 0.6030820609999998,
+                    "mean": 0.6030820609999998,
+                    "min": 0.6030820609999998,
+                    "number": 1,
+                    "q_25": 0.6030820609999998,
+                    "q_75": 0.6030820609999998,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.cdap_simulate.time_component": {
+            "result": [
+                12.425583257
+            ],
+            "samples": [
+                [
+                    12.425583257
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 12.425583257,
+                    "mean": 12.425583257,
+                    "min": 12.425583257,
+                    "number": 1,
+                    "q_25": 12.425583257,
+                    "q_75": 12.425583257,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.free_parking.time_component": {
+            "result": [
+                1.21047071
+            ],
+            "samples": [
+                [
+                    1.21047071
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.21047071,
+                    "mean": 1.21047071,
+                    "min": 1.21047071,
+                    "number": 1,
+                    "q_25": 1.21047071,
+                    "q_75": 1.21047071,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.joint_tour_composition.time_component": {
+            "result": [
+                0.4324778930000006
+            ],
+            "samples": [
+                [
+                    0.4324778930000006
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 0.4324778930000006,
+                    "mean": 0.4324778930000006,
+                    "min": 0.4324778930000006,
+                    "number": 1,
+                    "q_25": 0.4324778930000006,
+                    "q_75": 0.4324778930000006,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.joint_tour_destination.time_component": {
+            "result": [
+                16.681243528
+            ],
+            "samples": [
+                [
+                    16.681243528
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 16.681243528,
+                    "mean": 16.681243528,
+                    "min": 16.681243528,
+                    "number": 1,
+                    "q_25": 16.681243528,
+                    "q_75": 16.681243528,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.joint_tour_frequency.time_component": {
+            "result": [
+                1.4113229450000002
+            ],
+            "samples": [
+                [
+                    1.4113229450000002
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.4113229450000002,
+                    "mean": 1.4113229450000002,
+                    "min": 1.4113229450000002,
+                    "number": 1,
+                    "q_25": 1.4113229450000002,
+                    "q_75": 1.4113229450000002,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.joint_tour_participation.time_component": {
+            "result": [
+                11.704440686999998
+            ],
+            "samples": [
+                [
+                    11.704440686999998
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 11.704440686999998,
+                    "mean": 11.704440686999998,
+                    "min": 11.704440686999998,
+                    "number": 1,
+                    "q_25": 11.704440686999998,
+                    "q_75": 11.704440686999998,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.joint_tour_scheduling.time_component": {
+            "result": [
+                3.9282977469999993
+            ],
+            "samples": [
+                [
+                    3.9282977469999993
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 3.9282977469999993,
+                    "mean": 3.9282977469999993,
+                    "min": 3.9282977469999993,
+                    "number": 1,
+                    "q_25": 3.9282977469999993,
+                    "q_75": 3.9282977469999993,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.mandatory_tour_frequency.time_component": {
+            "result": [
+                2.369614094
+            ],
+            "samples": [
+                [
+                    2.369614094
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 2.369614094,
+                    "mean": 2.369614094,
+                    "min": 2.369614094,
+                    "number": 1,
+                    "q_25": 2.369614094,
+                    "q_75": 2.369614094,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.mandatory_tour_scheduling.time_component": {
+            "result": [
+                212.22321194
+            ],
+            "samples": [
+                [
+                    212.22321194
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 212.22321194,
+                    "mean": 212.22321194,
+                    "min": 212.22321194,
+                    "number": 1,
+                    "q_25": 212.22321194,
+                    "q_75": 212.22321194,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.non_mandatory_tour_destination.time_component": {
+            "result": [
+                191.815131513
+            ],
+            "samples": [
+                [
+                    191.815131513
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 191.815131513,
+                    "mean": 191.815131513,
+                    "min": 191.815131513,
+                    "number": 1,
+                    "q_25": 191.815131513,
+                    "q_75": 191.815131513,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.non_mandatory_tour_frequency.time_component": {
+            "result": [
+                51.39015108
+            ],
+            "samples": [
+                [
+                    51.39015108
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 51.39015108,
+                    "mean": 51.39015108,
+                    "min": 51.39015108,
+                    "number": 1,
+                    "q_25": 51.39015108,
+                    "q_75": 51.39015108,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.non_mandatory_tour_scheduling.time_component": {
+            "result": [
+                86.186829224
+            ],
+            "samples": [
+                [
+                    86.186829224
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 86.186829224,
+                    "mean": 86.186829224,
+                    "min": 86.186829224,
+                    "number": 1,
+                    "q_25": 86.186829224,
+                    "q_75": 86.186829224,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.school_location.time_component": {
+            "result": [
+                86.196542976
+            ],
+            "samples": [
+                [
+                    86.196542976
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 86.196542976,
+                    "mean": 86.196542976,
+                    "min": 86.196542976,
+                    "number": 1,
+                    "q_25": 86.196542976,
+                    "q_75": 86.196542976,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.stop_frequency.time_component": {
+            "result": [
+                8.081300247999998
+            ],
+            "samples": [
+                [
+                    8.081300247999998
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 8.081300247999998,
+                    "mean": 8.081300247999998,
+                    "min": 8.081300247999998,
+                    "number": 1,
+                    "q_25": 8.081300247999998,
+                    "q_75": 8.081300247999998,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.tour_mode_choice_simulate.time_component": {
+            "result": [
+                46.465644358
+            ],
+            "samples": [
+                [
+                    46.465644358
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 46.465644358,
+                    "mean": 46.465644358,
+                    "min": 46.465644358,
+                    "number": 1,
+                    "q_25": 46.465644358,
+                    "q_75": 46.465644358,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.trip_destination.time_component": {
+            "result": [
+                321.932569607
+            ],
+            "samples": [
+                [
+                    321.932569607
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 321.932569607,
+                    "mean": 321.932569607,
+                    "min": 321.932569607,
+                    "number": 1,
+                    "q_25": 321.932569607,
+                    "q_75": 321.932569607,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.trip_mode_choice.time_component": {
+            "result": [
+                57.281898264000006
+            ],
+            "samples": [
+                [
+                    57.281898264000006
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 57.281898264000006,
+                    "mean": 57.281898264000006,
+                    "min": 57.281898264000006,
+                    "number": 1,
+                    "q_25": 57.281898264000006,
+                    "q_75": 57.281898264000006,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.trip_purpose.time_component": {
+            "result": [
+                1.0677220100000007
+            ],
+            "samples": [
+                [
+                    1.0677220100000007
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.0677220100000007,
+                    "mean": 1.0677220100000007,
+                    "min": 1.0677220100000007,
+                    "number": 1,
+                    "q_25": 1.0677220100000007,
+                    "q_75": 1.0677220100000007,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.trip_purpose_and_destination.time_component": {
+            "result": [
+                2.0961905429999996
+            ],
+            "samples": [
+                [
+                    2.0961905429999996
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 2.0961905429999996,
+                    "mean": 2.0961905429999996,
+                    "min": 2.0961905429999996,
+                    "number": 1,
+                    "q_25": 2.0961905429999996,
+                    "q_75": 2.0961905429999996,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.trip_scheduling.time_component": {
+            "result": [
+                34.756372618
+            ],
+            "samples": [
+                [
+                    34.756372618
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 34.756372618,
+                    "mean": 34.756372618,
+                    "min": 34.756372618,
+                    "number": 1,
+                    "q_25": 34.756372618,
+                    "q_75": 34.756372618,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.workplace_location.time_component": {
+            "result": [
+                127.77556460299999
+            ],
+            "samples": [
+                [
+                    127.77556460299999
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 127.77556460299999,
+                    "mean": 127.77556460299999,
+                    "min": 127.77556460299999,
+                    "number": 1,
+                    "q_25": 127.77556460299999,
+                    "q_75": 127.77556460299999,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2example.write_trip_matrices.time_component": {
+            "result": [
+                6.834035440999999
+            ],
+            "samples": [
+                [
+                    6.834035440999999
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 6.834035440999999,
+                    "mean": 6.834035440999999,
+                    "min": 6.834035440999999,
+                    "number": 1,
+                    "q_25": 6.834035440999999,
+                    "q_75": 6.834035440999999,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.atwork_subtour_destination.time_component": {
+            "result": [
+                79.76673683299998
+            ],
+            "samples": [
+                [
+                    79.76673683299998
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 79.76673683299998,
+                    "mean": 79.76673683299998,
+                    "min": 79.76673683299998,
+                    "number": 1,
+                    "q_25": 79.76673683299998,
+                    "q_75": 79.76673683299998,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.atwork_subtour_frequency.time_component": {
+            "result": [
+                3.731516134000003
+            ],
+            "samples": [
+                [
+                    3.731516134000003
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 3.731516134000003,
+                    "mean": 3.731516134000003,
+                    "min": 3.731516134000003,
+                    "number": 1,
+                    "q_25": 3.731516134000003,
+                    "q_75": 3.731516134000003,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.atwork_subtour_mode_choice.time_component": {
+            "result": [
+                56.836716094999986
+            ],
+            "samples": [
+                [
+                    56.836716094999986
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 56.836716094999986,
+                    "mean": 56.836716094999986,
+                    "min": 56.836716094999986,
+                    "number": 1,
+                    "q_25": 56.836716094999986,
+                    "q_75": 56.836716094999986,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.atwork_subtour_scheduling.time_component": {
+            "result": [
+                8.122038525999983
+            ],
+            "samples": [
+                [
+                    8.122038525999983
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 8.122038525999983,
+                    "mean": 8.122038525999983,
+                    "min": 8.122038525999983,
+                    "number": 1,
+                    "q_25": 8.122038525999983,
+                    "q_75": 8.122038525999983,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.auto_ownership_simulate.time_component": {
+            "result": [
+                2.282649790999983
+            ],
+            "samples": [
+                [
+                    2.282649790999983
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 2.282649790999983,
+                    "mean": 2.282649790999983,
+                    "min": 2.282649790999983,
+                    "number": 1,
+                    "q_25": 2.282649790999983,
+                    "q_75": 2.282649790999983,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.cdap_simulate.time_component": {
+            "result": [
+                13.752160417000027
+            ],
+            "samples": [
+                [
+                    13.752160417000027
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 13.752160417000027,
+                    "mean": 13.752160417000027,
+                    "min": 13.752160417000027,
+                    "number": 1,
+                    "q_25": 13.752160417000027,
+                    "q_75": 13.752160417000027,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.free_parking.time_component": {
+            "result": [
+                2.9773130599999718
+            ],
+            "samples": [
+                [
+                    2.9773130599999718
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 2.9773130599999718,
+                    "mean": 2.9773130599999718,
+                    "min": 2.9773130599999718,
+                    "number": 1,
+                    "q_25": 2.9773130599999718,
+                    "q_75": 2.9773130599999718,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.joint_tour_composition.time_component": {
+            "result": [
+                2.119696236999971
+            ],
+            "samples": [
+                [
+                    2.119696236999971
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 2.119696236999971,
+                    "mean": 2.119696236999971,
+                    "min": 2.119696236999971,
+                    "number": 1,
+                    "q_25": 2.119696236999971,
+                    "q_75": 2.119696236999971,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.joint_tour_destination.time_component": {
+            "result": [
+                35.24974021600002
+            ],
+            "samples": [
+                [
+                    35.24974021600002
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 35.24974021600002,
+                    "mean": 35.24974021600002,
+                    "min": 35.24974021600002,
+                    "number": 1,
+                    "q_25": 35.24974021600002,
+                    "q_75": 35.24974021600002,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.joint_tour_frequency.time_component": {
+            "result": [
+                3.3072903450000126
+            ],
+            "samples": [
+                [
+                    3.3072903450000126
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 3.3072903450000126,
+                    "mean": 3.3072903450000126,
+                    "min": 3.3072903450000126,
+                    "number": 1,
+                    "q_25": 3.3072903450000126,
+                    "q_75": 3.3072903450000126,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.joint_tour_participation.time_component": {
+            "result": [
+                9.065330302000007
+            ],
+            "samples": [
+                [
+                    9.065330302000007
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 9.065330302000007,
+                    "mean": 9.065330302000007,
+                    "min": 9.065330302000007,
+                    "number": 1,
+                    "q_25": 9.065330302000007,
+                    "q_75": 9.065330302000007,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.joint_tour_scheduling.time_component": {
+            "result": [
+                6.237792808999984
+            ],
+            "samples": [
+                [
+                    6.237792808999984
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 6.237792808999984,
+                    "mean": 6.237792808999984,
+                    "min": 6.237792808999984,
+                    "number": 1,
+                    "q_25": 6.237792808999984,
+                    "q_75": 6.237792808999984,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.mandatory_tour_frequency.time_component": {
+            "result": [
+                4.666432036999993
+            ],
+            "samples": [
+                [
+                    4.666432036999993
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 4.666432036999993,
+                    "mean": 4.666432036999993,
+                    "min": 4.666432036999993,
+                    "number": 1,
+                    "q_25": 4.666432036999993,
+                    "q_75": 4.666432036999993,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.mandatory_tour_scheduling.time_component": {
+            "result": [
+                234.76457663800005
+            ],
+            "samples": [
+                [
+                    234.76457663800005
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 234.76457663800005,
+                    "mean": 234.76457663800005,
+                    "min": 234.76457663800005,
+                    "number": 1,
+                    "q_25": 234.76457663800005,
+                    "q_75": 234.76457663800005,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.non_mandatory_tour_destination.time_component": {
+            "result": [
+                466.1788518199999
+            ],
+            "samples": [
+                [
+                    466.1788518199999
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 466.1788518199999,
+                    "mean": 466.1788518199999,
+                    "min": 466.1788518199999,
+                    "number": 1,
+                    "q_25": 466.1788518199999,
+                    "q_75": 466.1788518199999,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.non_mandatory_tour_frequency.time_component": {
+            "result": [
+                54.171636181999986
+            ],
+            "samples": [
+                [
+                    54.171636181999986
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 54.171636181999986,
+                    "mean": 54.171636181999986,
+                    "min": 54.171636181999986,
+                    "number": 1,
+                    "q_25": 54.171636181999986,
+                    "q_75": 54.171636181999986,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.non_mandatory_tour_scheduling.time_component": {
+            "result": [
+                84.85731140399997
+            ],
+            "samples": [
+                [
+                    84.85731140399997
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 84.85731140399997,
+                    "mean": 84.85731140399997,
+                    "min": 84.85731140399997,
+                    "number": 1,
+                    "q_25": 84.85731140399997,
+                    "q_75": 84.85731140399997,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.school_location.time_component": {
+            "result": [
+                164.20323370199998
+            ],
+            "samples": [
+                [
+                    164.20323370199998
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 164.20323370199998,
+                    "mean": 164.20323370199998,
+                    "min": 164.20323370199998,
+                    "number": 1,
+                    "q_25": 164.20323370199998,
+                    "q_75": 164.20323370199998,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.stop_frequency.time_component": {
+            "result": [
+                14.252626114000009
+            ],
+            "samples": [
+                [
+                    14.252626114000009
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 14.252626114000009,
+                    "mean": 14.252626114000009,
+                    "min": 14.252626114000009,
+                    "number": 1,
+                    "q_25": 14.252626114000009,
+                    "q_75": 14.252626114000009,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.tour_mode_choice_simulate.time_component": {
+            "result": [
+                476.471242077
+            ],
+            "samples": [
+                [
+                    476.471242077
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 476.471242077,
+                    "mean": 476.471242077,
+                    "min": 476.471242077,
+                    "number": 1,
+                    "q_25": 476.471242077,
+                    "q_75": 476.471242077,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.trip_destination.time_component": {
+            "result": [
+                2669.36296789
+            ],
+            "samples": [
+                [
+                    2669.36296789
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 2669.36296789,
+                    "mean": 2669.36296789,
+                    "min": 2669.36296789,
+                    "number": 1,
+                    "q_25": 2669.36296789,
+                    "q_75": 2669.36296789,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.trip_mode_choice.time_component": {
+            "result": [
+                76.23741392899996
+            ],
+            "samples": [
+                [
+                    76.23741392899996
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 76.23741392899996,
+                    "mean": 76.23741392899996,
+                    "min": 76.23741392899996,
+                    "number": 1,
+                    "q_25": 76.23741392899996,
+                    "q_75": 76.23741392899996,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.trip_purpose.time_component": {
+            "result": [
+                3.2147211999999854
+            ],
+            "samples": [
+                [
+                    3.2147211999999854
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 3.2147211999999854,
+                    "mean": 3.2147211999999854,
+                    "min": 3.2147211999999854,
+                    "number": 1,
+                    "q_25": 3.2147211999999854,
+                    "q_75": 3.2147211999999854,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.trip_purpose_and_destination.time_component": {
+            "result": [
+                14.173860934000004
+            ],
+            "samples": [
+                [
+                    14.173860934000004
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 14.173860934000004,
+                    "mean": 14.173860934000004,
+                    "min": 14.173860934000004,
+                    "number": 1,
+                    "q_25": 14.173860934000004,
+                    "q_75": 14.173860934000004,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.trip_scheduling.time_component": {
+            "result": [
+                39.681568536999976
+            ],
+            "samples": [
+                [
+                    39.681568536999976
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 39.681568536999976,
+                    "mean": 39.681568536999976,
+                    "min": 39.681568536999976,
+                    "number": 1,
+                    "q_25": 39.681568536999976,
+                    "q_75": 39.681568536999976,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.workplace_location.time_component": {
+            "result": [
+                418.569839463
+            ],
+            "samples": [
+                [
+                    418.569839463
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 418.569839463,
+                    "mean": 418.569839463,
+                    "min": 418.569839463,
+                    "number": 1,
+                    "q_25": 418.569839463,
+                    "q_75": 418.569839463,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag2full.write_trip_matrices.time_component": {
+            "result": [
+                116.06844949500004
+            ],
+            "samples": [
+                [
+                    116.06844949500004
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 116.06844949500004,
+                    "mean": 116.06844949500004,
+                    "min": 116.06844949500004,
+                    "number": 1,
+                    "q_25": 116.06844949500004,
+                    "q_75": 116.06844949500004,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.atwork_subtour_destination.time_component": {
+            "result": [
+                45.980391738
+            ],
+            "samples": [
+                [
+                    45.980391738
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 45.980391738,
+                    "mean": 45.980391738,
+                    "min": 45.980391738,
+                    "number": 1,
+                    "q_25": 45.980391738,
+                    "q_75": 45.980391738,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.atwork_subtour_frequency.time_component": {
+            "result": [
+                1.9949810649999993
+            ],
+            "samples": [
+                [
+                    1.9949810649999993
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.9949810649999993,
+                    "mean": 1.9949810649999993,
+                    "min": 1.9949810649999993,
+                    "number": 1,
+                    "q_25": 1.9949810649999993,
+                    "q_75": 1.9949810649999993,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.atwork_subtour_mode_choice.time_component": {
+            "result": [
+                5.925688328
+            ],
+            "samples": [
+                [
+                    5.925688328
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 5.925688328,
+                    "mean": 5.925688328,
+                    "min": 5.925688328,
+                    "number": 1,
+                    "q_25": 5.925688328,
+                    "q_75": 5.925688328,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.atwork_subtour_scheduling.time_component": {
+            "result": [
+                4.554229253
+            ],
+            "samples": [
+                [
+                    4.554229253
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 4.554229253,
+                    "mean": 4.554229253,
+                    "min": 4.554229253,
+                    "number": 1,
+                    "q_25": 4.554229253,
+                    "q_75": 4.554229253,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.auto_ownership_simulate.time_component": {
+            "result": [
+                0.6240673809999997
+            ],
+            "samples": [
+                [
+                    0.6240673809999997
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 0.6240673809999997,
+                    "mean": 0.6240673809999997,
+                    "min": 0.6240673809999997,
+                    "number": 1,
+                    "q_25": 0.6240673809999997,
+                    "q_75": 0.6240673809999997,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.cdap_simulate.time_component": {
+            "result": [
+                12.276030745
+            ],
+            "samples": [
+                [
+                    12.276030745
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 12.276030745,
+                    "mean": 12.276030745,
+                    "min": 12.276030745,
+                    "number": 1,
+                    "q_25": 12.276030745,
+                    "q_75": 12.276030745,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.free_parking.time_component": {
+            "result": [
+                1.2348276610000002
+            ],
+            "samples": [
+                [
+                    1.2348276610000002
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.2348276610000002,
+                    "mean": 1.2348276610000002,
+                    "min": 1.2348276610000002,
+                    "number": 1,
+                    "q_25": 1.2348276610000002,
+                    "q_75": 1.2348276610000002,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.joint_tour_composition.time_component": {
+            "result": [
+                0.4299739909999998
+            ],
+            "samples": [
+                [
+                    0.4299739909999998
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 0.4299739909999998,
+                    "mean": 0.4299739909999998,
+                    "min": 0.4299739909999998,
+                    "number": 1,
+                    "q_25": 0.4299739909999998,
+                    "q_75": 0.4299739909999998,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.joint_tour_destination.time_component": {
+            "result": [
+                23.193885474
+            ],
+            "samples": [
+                [
+                    23.193885474
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 23.193885474,
+                    "mean": 23.193885474,
+                    "min": 23.193885474,
+                    "number": 1,
+                    "q_25": 23.193885474,
+                    "q_75": 23.193885474,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.joint_tour_frequency.time_component": {
+            "result": [
+                1.4153134279999993
+            ],
+            "samples": [
+                [
+                    1.4153134279999993
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.4153134279999993,
+                    "mean": 1.4153134279999993,
+                    "min": 1.4153134279999993,
+                    "number": 1,
+                    "q_25": 1.4153134279999993,
+                    "q_75": 1.4153134279999993,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.joint_tour_participation.time_component": {
+            "result": [
+                12.107412244999999
+            ],
+            "samples": [
+                [
+                    12.107412244999999
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 12.107412244999999,
+                    "mean": 12.107412244999999,
+                    "min": 12.107412244999999,
+                    "number": 1,
+                    "q_25": 12.107412244999999,
+                    "q_75": 12.107412244999999,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.joint_tour_scheduling.time_component": {
+            "result": [
+                3.7071422650000008
+            ],
+            "samples": [
+                [
+                    3.7071422650000008
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 3.7071422650000008,
+                    "mean": 3.7071422650000008,
+                    "min": 3.7071422650000008,
+                    "number": 1,
+                    "q_25": 3.7071422650000008,
+                    "q_75": 3.7071422650000008,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.mandatory_tour_frequency.time_component": {
+            "result": [
+                2.407906793
+            ],
+            "samples": [
+                [
+                    2.407906793
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 2.407906793,
+                    "mean": 2.407906793,
+                    "min": 2.407906793,
+                    "number": 1,
+                    "q_25": 2.407906793,
+                    "q_75": 2.407906793,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.mandatory_tour_scheduling.time_component": {
+            "result": [
+                301.707392923
+            ],
+            "samples": [
+                [
+                    301.707392923
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 301.707392923,
+                    "mean": 301.707392923,
+                    "min": 301.707392923,
+                    "number": 1,
+                    "q_25": 301.707392923,
+                    "q_75": 301.707392923,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.non_mandatory_tour_destination.time_component": {
+            "result": [
+                519.577422405
+            ],
+            "samples": [
+                [
+                    519.577422405
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 519.577422405,
+                    "mean": 519.577422405,
+                    "min": 519.577422405,
+                    "number": 1,
+                    "q_25": 519.577422405,
+                    "q_75": 519.577422405,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.non_mandatory_tour_frequency.time_component": {
+            "result": [
+                52.385606302
+            ],
+            "samples": [
+                [
+                    52.385606302
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 52.385606302,
+                    "mean": 52.385606302,
+                    "min": 52.385606302,
+                    "number": 1,
+                    "q_25": 52.385606302,
+                    "q_75": 52.385606302,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.non_mandatory_tour_scheduling.time_component": {
+            "result": [
+                75.17026803
+            ],
+            "samples": [
+                [
+                    75.17026803
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 75.17026803,
+                    "mean": 75.17026803,
+                    "min": 75.17026803,
+                    "number": 1,
+                    "q_25": 75.17026803,
+                    "q_75": 75.17026803,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.school_location.time_component": {
+            "result": [
+                253.319441216
+            ],
+            "samples": [
+                [
+                    253.319441216
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 253.319441216,
+                    "mean": 253.319441216,
+                    "min": 253.319441216,
+                    "number": 1,
+                    "q_25": 253.319441216,
+                    "q_75": 253.319441216,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.stop_frequency.time_component": {
+            "result": [
+                8.841651774999999
+            ],
+            "samples": [
+                [
+                    8.841651774999999
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 8.841651774999999,
+                    "mean": 8.841651774999999,
+                    "min": 8.841651774999999,
+                    "number": 1,
+                    "q_25": 8.841651774999999,
+                    "q_75": 8.841651774999999,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.tour_mode_choice_simulate.time_component": {
+            "result": [
+                74.601564316
+            ],
+            "samples": [
+                [
+                    74.601564316
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 74.601564316,
+                    "mean": 74.601564316,
+                    "min": 74.601564316,
+                    "number": 1,
+                    "q_25": 74.601564316,
+                    "q_75": 74.601564316,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.trip_destination.time_component": {
+            "result": [
+                511.38096758200004
+            ],
+            "samples": [
+                [
+                    511.38096758200004
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 511.38096758200004,
+                    "mean": 511.38096758200004,
+                    "min": 511.38096758200004,
+                    "number": 1,
+                    "q_25": 511.38096758200004,
+                    "q_75": 511.38096758200004,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.trip_mode_choice.time_component": {
+            "result": [
+                97.571093641
+            ],
+            "samples": [
+                [
+                    97.571093641
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 97.571093641,
+                    "mean": 97.571093641,
+                    "min": 97.571093641,
+                    "number": 1,
+                    "q_25": 97.571093641,
+                    "q_75": 97.571093641,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.trip_purpose.time_component": {
+            "result": [
+                1.1955029489999998
+            ],
+            "samples": [
+                [
+                    1.1955029489999998
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.1955029489999998,
+                    "mean": 1.1955029489999998,
+                    "min": 1.1955029489999998,
+                    "number": 1,
+                    "q_25": 1.1955029489999998,
+                    "q_75": 1.1955029489999998,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.trip_purpose_and_destination.time_component": {
+            "result": [
+                2.297238227000001
+            ],
+            "samples": [
+                [
+                    2.297238227000001
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 2.297238227000001,
+                    "mean": 2.297238227000001,
+                    "min": 2.297238227000001,
+                    "number": 1,
+                    "q_25": 2.297238227000001,
+                    "q_75": 2.297238227000001,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.trip_scheduling.time_component": {
+            "result": [
+                34.017310496
+            ],
+            "samples": [
+                [
+                    34.017310496
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 34.017310496,
+                    "mean": 34.017310496,
+                    "min": 34.017310496,
+                    "number": 1,
+                    "q_25": 34.017310496,
+                    "q_75": 34.017310496,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.workplace_location.time_component": {
+            "result": [
+                349.429197532
+            ],
+            "samples": [
+                [
+                    349.429197532
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 349.429197532,
+                    "mean": 349.429197532,
+                    "min": 349.429197532,
+                    "number": 1,
+                    "q_25": 349.429197532,
+                    "q_75": 349.429197532,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3example.write_trip_matrices.time_component": {
+            "result": [
+                3.8758493640000005
+            ],
+            "samples": [
+                [
+                    3.8758493640000005
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 3.8758493640000005,
+                    "mean": 3.8758493640000005,
+                    "min": 3.8758493640000005,
+                    "number": 1,
+                    "q_25": 3.8758493640000005,
+                    "q_75": 3.8758493640000005,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.atwork_subtour_destination.time_component": {
+            "result": [
+                88.94561536600001
+            ],
+            "samples": [
+                [
+                    88.94561536600001
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 88.94561536600001,
+                    "mean": 88.94561536600001,
+                    "min": 88.94561536600001,
+                    "number": 1,
+                    "q_25": 88.94561536600001,
+                    "q_75": 88.94561536600001,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.atwork_subtour_frequency.time_component": {
+            "result": [
+                2.537900461999996
+            ],
+            "samples": [
+                [
+                    2.537900461999996
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 2.537900461999996,
+                    "mean": 2.537900461999996,
+                    "min": 2.537900461999996,
+                    "number": 1,
+                    "q_25": 2.537900461999996,
+                    "q_75": 2.537900461999996,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.atwork_subtour_mode_choice.time_component": {
+            "result": [
+                14.750853258999996
+            ],
+            "samples": [
+                [
+                    14.750853258999996
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 14.750853258999996,
+                    "mean": 14.750853258999996,
+                    "min": 14.750853258999996,
+                    "number": 1,
+                    "q_25": 14.750853258999996,
+                    "q_75": 14.750853258999996,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.atwork_subtour_scheduling.time_component": {
+            "result": [
+                5.232715549999995
+            ],
+            "samples": [
+                [
+                    5.232715549999995
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 5.232715549999995,
+                    "mean": 5.232715549999995,
+                    "min": 5.232715549999995,
+                    "number": 1,
+                    "q_25": 5.232715549999995,
+                    "q_75": 5.232715549999995,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.auto_ownership_simulate.time_component": {
+            "result": [
+                1.1219436949999988
+            ],
+            "samples": [
+                [
+                    1.1219436949999988
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.1219436949999988,
+                    "mean": 1.1219436949999988,
+                    "min": 1.1219436949999988,
+                    "number": 1,
+                    "q_25": 1.1219436949999988,
+                    "q_75": 1.1219436949999988,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.cdap_simulate.time_component": {
+            "result": [
+                12.65980141499999
+            ],
+            "samples": [
+                [
+                    12.65980141499999
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 12.65980141499999,
+                    "mean": 12.65980141499999,
+                    "min": 12.65980141499999,
+                    "number": 1,
+                    "q_25": 12.65980141499999,
+                    "q_75": 12.65980141499999,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.free_parking.time_component": {
+            "result": [
+                1.8392774300000099
+            ],
+            "samples": [
+                [
+                    1.8392774300000099
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.8392774300000099,
+                    "mean": 1.8392774300000099,
+                    "min": 1.8392774300000099,
+                    "number": 1,
+                    "q_25": 1.8392774300000099,
+                    "q_75": 1.8392774300000099,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.joint_tour_composition.time_component": {
+            "result": [
+                0.8911964499999954
+            ],
+            "samples": [
+                [
+                    0.8911964499999954
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 0.8911964499999954,
+                    "mean": 0.8911964499999954,
+                    "min": 0.8911964499999954,
+                    "number": 1,
+                    "q_25": 0.8911964499999954,
+                    "q_75": 0.8911964499999954,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.joint_tour_destination.time_component": {
+            "result": [
+                29.789349865999995
+            ],
+            "samples": [
+                [
+                    29.789349865999995
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 29.789349865999995,
+                    "mean": 29.789349865999995,
+                    "min": 29.789349865999995,
+                    "number": 1,
+                    "q_25": 29.789349865999995,
+                    "q_75": 29.789349865999995,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.joint_tour_frequency.time_component": {
+            "result": [
+                1.8533084540000004
+            ],
+            "samples": [
+                [
+                    1.8533084540000004
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.8533084540000004,
+                    "mean": 1.8533084540000004,
+                    "min": 1.8533084540000004,
+                    "number": 1,
+                    "q_25": 1.8533084540000004,
+                    "q_75": 1.8533084540000004,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.joint_tour_participation.time_component": {
+            "result": [
+                4.873253746000003
+            ],
+            "samples": [
+                [
+                    4.873253746000003
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 4.873253746000003,
+                    "mean": 4.873253746000003,
+                    "min": 4.873253746000003,
+                    "number": 1,
+                    "q_25": 4.873253746000003,
+                    "q_75": 4.873253746000003,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.joint_tour_scheduling.time_component": {
+            "result": [
+                4.149056985000001
+            ],
+            "samples": [
+                [
+                    4.149056985000001
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 4.149056985000001,
+                    "mean": 4.149056985000001,
+                    "min": 4.149056985000001,
+                    "number": 1,
+                    "q_25": 4.149056985000001,
+                    "q_75": 4.149056985000001,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.mandatory_tour_frequency.time_component": {
+            "result": [
+                2.963797151999998
+            ],
+            "samples": [
+                [
+                    2.963797151999998
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 2.963797151999998,
+                    "mean": 2.963797151999998,
+                    "min": 2.963797151999998,
+                    "number": 1,
+                    "q_25": 2.963797151999998,
+                    "q_75": 2.963797151999998,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.mandatory_tour_scheduling.time_component": {
+            "result": [
+                230.35771966800002
+            ],
+            "samples": [
+                [
+                    230.35771966800002
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 230.35771966800002,
+                    "mean": 230.35771966800002,
+                    "min": 230.35771966800002,
+                    "number": 1,
+                    "q_25": 230.35771966800002,
+                    "q_75": 230.35771966800002,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.non_mandatory_tour_destination.time_component": {
+            "result": [
+                537.066679311
+            ],
+            "samples": [
+                [
+                    537.066679311
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 537.066679311,
+                    "mean": 537.066679311,
+                    "min": 537.066679311,
+                    "number": 1,
+                    "q_25": 537.066679311,
+                    "q_75": 537.066679311,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.non_mandatory_tour_frequency.time_component": {
+            "result": [
+                51.24277568099998
+            ],
+            "samples": [
+                [
+                    51.24277568099998
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 51.24277568099998,
+                    "mean": 51.24277568099998,
+                    "min": 51.24277568099998,
+                    "number": 1,
+                    "q_25": 51.24277568099998,
+                    "q_75": 51.24277568099998,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.non_mandatory_tour_scheduling.time_component": {
+            "result": [
+                66.83425671399999
+            ],
+            "samples": [
+                [
+                    66.83425671399999
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 66.83425671399999,
+                    "mean": 66.83425671399999,
+                    "min": 66.83425671399999,
+                    "number": 1,
+                    "q_25": 66.83425671399999,
+                    "q_75": 66.83425671399999,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.school_location.time_component": {
+            "result": [
+                224.76850568100002
+            ],
+            "samples": [
+                [
+                    224.76850568100002
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 224.76850568100002,
+                    "mean": 224.76850568100002,
+                    "min": 224.76850568100002,
+                    "number": 1,
+                    "q_25": 224.76850568100002,
+                    "q_75": 224.76850568100002,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.stop_frequency.time_component": {
+            "result": [
+                12.593406153000004
+            ],
+            "samples": [
+                [
+                    12.593406153000004
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 12.593406153000004,
+                    "mean": 12.593406153000004,
+                    "min": 12.593406153000004,
+                    "number": 1,
+                    "q_25": 12.593406153000004,
+                    "q_75": 12.593406153000004,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.tour_mode_choice_simulate.time_component": {
+            "result": [
+                119.429579528
+            ],
+            "samples": [
+                [
+                    119.429579528
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 119.429579528,
+                    "mean": 119.429579528,
+                    "min": 119.429579528,
+                    "number": 1,
+                    "q_25": 119.429579528,
+                    "q_75": 119.429579528,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.trip_destination.time_component": {
+            "result": [
+                1336.515518051
+            ],
+            "samples": [
+                [
+                    1336.515518051
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1336.515518051,
+                    "mean": 1336.515518051,
+                    "min": 1336.515518051,
+                    "number": 1,
+                    "q_25": 1336.515518051,
+                    "q_75": 1336.515518051,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.trip_mode_choice.time_component": {
+            "result": [
+                152.233167891
+            ],
+            "samples": [
+                [
+                    152.233167891
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 152.233167891,
+                    "mean": 152.233167891,
+                    "min": 152.233167891,
+                    "number": 1,
+                    "q_25": 152.233167891,
+                    "q_75": 152.233167891,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.trip_purpose.time_component": {
+            "result": [
+                1.4984724600000021
+            ],
+            "samples": [
+                [
+                    1.4984724600000021
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 1.4984724600000021,
+                    "mean": 1.4984724600000021,
+                    "min": 1.4984724600000021,
+                    "number": 1,
+                    "q_25": 1.4984724600000021,
+                    "q_75": 1.4984724600000021,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.trip_purpose_and_destination.time_component": {
+            "result": [
+                23.172949574
+            ],
+            "samples": [
+                [
+                    23.172949574
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 23.172949574,
+                    "mean": 23.172949574,
+                    "min": 23.172949574,
+                    "number": 1,
+                    "q_25": 23.172949574,
+                    "q_75": 23.172949574,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.trip_scheduling.time_component": {
+            "result": [
+                34.060902615
+            ],
+            "samples": [
+                [
+                    34.060902615
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 34.060902615,
+                    "mean": 34.060902615,
+                    "min": 34.060902615,
+                    "number": 1,
+                    "q_25": 34.060902615,
+                    "q_75": 34.060902615,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.workplace_location.time_component": {
+            "result": [
+                515.739908481
+            ],
+            "samples": [
+                [
+                    515.739908481
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 515.739908481,
+                    "mean": 515.739908481,
+                    "min": 515.739908481,
+                    "number": 1,
+                    "q_25": 515.739908481,
+                    "q_75": 515.739908481,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        },
+        "sandag3full.write_trip_matrices.time_component": {
+            "result": [
+                43.97318544999999
+            ],
+            "samples": [
+                [
+                    43.97318544999999
+                ]
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        -Infinity,
+                        Infinity
+                    ],
+                    "max": 43.97318544999999,
+                    "mean": 43.97318544999999,
+                    "min": 43.97318544999999,
+                    "number": 1,
+                    "q_25": 43.97318544999999,
+                    "q_75": 43.97318544999999,
+                    "repeat": 1,
+                    "std": 0.0
+                }
+            ]
+        }
+    },
+    "started_at": {
+        "mtc1full.atwork_subtour_destination.time_component": 1637167653717,
+        "mtc1full.atwork_subtour_frequency.time_component": 1637173129608,
+        "mtc1full.atwork_subtour_mode_choice.time_component": 1637173185577,
+        "mtc1full.atwork_subtour_scheduling.time_component": 1637173249659,
+        "mtc1full.auto_ownership_simulate.time_component": 1637173319345,
+        "mtc1full.cdap_simulate.time_component": 1637173372115,
+        "mtc1full.free_parking.time_component": 1637173436095,
+        "mtc1full.joint_tour_composition.time_component": 1637173489466,
+        "mtc1full.joint_tour_destination.time_component": 1637173543036,
+        "mtc1full.joint_tour_frequency.time_component": 1637173610516,
+        "mtc1full.joint_tour_participation.time_component": 1637173664588,
+        "mtc1full.joint_tour_scheduling.time_component": 1637173722162,
+        "mtc1full.mandatory_tour_frequency.time_component": 1637173778731,
+        "mtc1full.mandatory_tour_scheduling.time_component": 1637173833199,
+        "mtc1full.non_mandatory_tour_destination.time_component": 1637174097767,
+        "mtc1full.non_mandatory_tour_frequency.time_component": 1637174356631,
+        "mtc1full.non_mandatory_tour_scheduling.time_component": 1637174462352,
+        "mtc1full.school_location.time_component": 1637174584182,
+        "mtc1full.stop_frequency.time_component": 1637174710923,
+        "mtc1full.tour_mode_choice_simulate.time_component": 1637174776306,
+        "mtc1full.trip_destination.time_component": 1637174865611,
+        "mtc1full.trip_mode_choice.time_component": 1637175369513,
+        "mtc1full.trip_purpose.time_component": 1637175485741,
+        "mtc1full.trip_purpose_and_destination.time_component": 1637175544213,
+        "mtc1full.trip_scheduling.time_component": 1637175603887,
+        "mtc1full.workplace_location.time_component": 1637175698495,
+        "mtc1full.write_trip_matrices.time_component": 1637175950852,
+        "mtc1mp4.atwork_subtour_destination.track_component": 1637176027347,
+        "mtc1mp4.atwork_subtour_frequency.track_component": 1637176266710,
+        "mtc1mp4.atwork_subtour_mode_choice.track_component": 1637176268428,
+        "mtc1mp4.atwork_subtour_scheduling.track_component": 1637176270142,
+        "mtc1mp4.auto_ownership_simulate.track_component": 1637176271856,
+        "mtc1mp4.cdap_simulate.track_component": 1637176273474,
+        "mtc1mp4.free_parking.track_component": 1637176275087,
+        "mtc1mp4.joint_tour_composition.track_component": 1637176276804,
+        "mtc1mp4.joint_tour_destination.track_component": 1637176278519,
+        "mtc1mp4.joint_tour_frequency.track_component": 1637176280133,
+        "mtc1mp4.joint_tour_participation.track_component": 1637176281750,
+        "mtc1mp4.joint_tour_scheduling.track_component": 1637176283365,
+        "mtc1mp4.mandatory_tour_frequency.track_component": 1637176285079,
+        "mtc1mp4.mandatory_tour_scheduling.track_component": 1637176286695,
+        "mtc1mp4.non_mandatory_tour_destination.track_component": 1637176288411,
+        "mtc1mp4.non_mandatory_tour_frequency.track_component": 1637176290126,
+        "mtc1mp4.non_mandatory_tour_scheduling.track_component": 1637176291841,
+        "mtc1mp4.school_location.track_component": 1637176293458,
+        "mtc1mp4.stop_frequency.track_component": 1637176295075,
+        "mtc1mp4.tour_mode_choice_simulate.track_component": 1637176296793,
+        "mtc1mp4.trip_destination.track_component": 1637176298508,
+        "mtc1mp4.trip_mode_choice.track_component": 1637176300123,
+        "mtc1mp4.trip_purpose.track_component": 1637176301737,
+        "mtc1mp4.trip_purpose_and_destination.track_component": 1637176303453,
+        "mtc1mp4.trip_scheduling.track_component": 1637176305169,
+        "mtc1mp4.workplace_location.track_component": 1637176306784,
+        "sandag1example.atwork_subtour_destination.time_component": 1637176308501,
+        "sandag1example.atwork_subtour_frequency.time_component": 1637177583464,
+        "sandag1example.atwork_subtour_mode_choice.time_component": 1637177590387,
+        "sandag1example.atwork_subtour_scheduling.time_component": 1637177600114,
+        "sandag1example.auto_ownership_simulate.time_component": 1637177610141,
+        "sandag1example.cdap_simulate.time_component": 1637177614262,
+        "sandag1example.free_parking.time_component": 1637177629792,
+        "sandag1example.joint_tour_composition.time_component": 1637177634514,
+        "sandag1example.joint_tour_destination.time_component": 1637177639233,
+        "sandag1example.joint_tour_frequency.time_component": 1637177659170,
+        "sandag1example.joint_tour_participation.time_component": 1637177664693,
+        "sandag1example.joint_tour_scheduling.time_component": 1637177680925,
+        "sandag1example.mandatory_tour_frequency.time_component": 1637177688851,
+        "sandag1example.mandatory_tour_scheduling.time_component": 1637177694874,
+        "sandag1example.non_mandatory_tour_destination.time_component": 1637177911301,
+        "sandag1example.non_mandatory_tour_frequency.time_component": 1637178075680,
+        "sandag1example.non_mandatory_tour_scheduling.time_component": 1637178130753,
+        "sandag1example.school_location.time_component": 1637178205644,
+        "sandag1example.stop_frequency.time_component": 1637178279132,
+        "sandag1example.tour_mode_choice_simulate.time_component": 1637178292762,
+        "sandag1example.trip_destination.time_component": 1637178340228,
+        "sandag1example.trip_mode_choice.time_component": 1637178623822,
+        "sandag1example.trip_purpose.time_component": 1637178688302,
+        "sandag1example.trip_purpose_and_destination.time_component": 1637178695927,
+        "sandag1example.trip_scheduling.time_component": 1637178705455,
+        "sandag1example.workplace_location.time_component": 1637178746915,
+        "sandag1example.write_trip_matrices.time_component": 1637178863545,
+        "sandag1full.atwork_subtour_destination.time_component": 1637178878077,
+        "sandag1full.atwork_subtour_frequency.time_component": 1637182081236,
+        "sandag1full.atwork_subtour_mode_choice.time_component": 1637182081237,
+        "sandag1full.atwork_subtour_scheduling.time_component": 1637182081238,
+        "sandag1full.auto_ownership_simulate.time_component": 1637182081238,
+        "sandag1full.cdap_simulate.time_component": 1637182081239,
+        "sandag1full.free_parking.time_component": 1637182081239,
+        "sandag1full.joint_tour_composition.time_component": 1637182081240,
+        "sandag1full.joint_tour_destination.time_component": 1637182081240,
+        "sandag1full.joint_tour_frequency.time_component": 1637182081241,
+        "sandag1full.joint_tour_participation.time_component": 1637182081241,
+        "sandag1full.joint_tour_scheduling.time_component": 1637182081242,
+        "sandag1full.mandatory_tour_frequency.time_component": 1637182081242,
+        "sandag1full.mandatory_tour_scheduling.time_component": 1637182081243,
+        "sandag1full.non_mandatory_tour_destination.time_component": 1637182081243,
+        "sandag1full.non_mandatory_tour_frequency.time_component": 1637182081244,
+        "sandag1full.non_mandatory_tour_scheduling.time_component": 1637182081244,
+        "sandag1full.school_location.time_component": 1637182081245,
+        "sandag1full.stop_frequency.time_component": 1637182081245,
+        "sandag1full.tour_mode_choice_simulate.time_component": 1637182081246,
+        "sandag1full.trip_destination.time_component": 1637182081246,
+        "sandag1full.trip_mode_choice.time_component": 1637182081247,
+        "sandag1full.trip_purpose.time_component": 1637182081247,
+        "sandag1full.trip_purpose_and_destination.time_component": 1637182081248,
+        "sandag1full.trip_scheduling.time_component": 1637182081248,
+        "sandag1full.workplace_location.time_component": 1637182081249,
+        "sandag1full.write_trip_matrices.time_component": 1637182081249,
+        "sandag2example.atwork_subtour_destination.time_component": 1637182081250,
+        "sandag2example.atwork_subtour_frequency.time_component": 1637183485132,
+        "sandag2example.atwork_subtour_mode_choice.time_component": 1637183492256,
+        "sandag2example.atwork_subtour_scheduling.time_component": 1637183502784,
+        "sandag2example.auto_ownership_simulate.time_component": 1637183513212,
+        "sandag2example.cdap_simulate.time_component": 1637183517533,
+        "sandag2example.free_parking.time_component": 1637183533563,
+        "sandag2example.joint_tour_composition.time_component": 1637183538483,
+        "sandag2example.joint_tour_destination.time_component": 1637183543303,
+        "sandag2example.joint_tour_frequency.time_component": 1637183564441,
+        "sandag2example.joint_tour_participation.time_component": 1637183570164,
+        "sandag2example.joint_tour_scheduling.time_component": 1637183586397,
+        "sandag2example.mandatory_tour_frequency.time_component": 1637183594923,
+        "sandag2example.mandatory_tour_scheduling.time_component": 1637183601246,
+        "sandag2example.non_mandatory_tour_destination.time_component": 1637183817873,
+        "sandag2example.non_mandatory_tour_frequency.time_component": 1637184014681,
+        "sandag2example.non_mandatory_tour_scheduling.time_component": 1637184070655,
+        "sandag2example.school_location.time_component": 1637184161761,
+        "sandag2example.stop_frequency.time_component": 1637184251665,
+        "sandag2example.tour_mode_choice_simulate.time_component": 1637184265297,
+        "sandag2example.trip_destination.time_component": 1637184316764,
+        "sandag2example.trip_mode_choice.time_component": 1637184646402,
+        "sandag2example.trip_purpose.time_component": 1637184711384,
+        "sandag2example.trip_purpose_and_destination.time_component": 1637184719208,
+        "sandag2example.trip_scheduling.time_component": 1637184728935,
+        "sandag2example.workplace_location.time_component": 1637184771395,
+        "sandag2example.write_trip_matrices.time_component": 1637184902839,
+        "sandag2full.atwork_subtour_destination.time_component": 1637184917872,
+        "sandag2full.atwork_subtour_frequency.time_component": 1637204486146,
+        "sandag2full.atwork_subtour_mode_choice.time_component": 1637204842707,
+        "sandag2full.atwork_subtour_scheduling.time_component": 1637205255620,
+        "sandag2full.auto_ownership_simulate.time_component": 1637205629796,
+        "sandag2full.cdap_simulate.time_component": 1637205985653,
+        "sandag2full.free_parking.time_component": 1637206375543,
+        "sandag2full.joint_tour_composition.time_component": 1637206730099,
+        "sandag2full.joint_tour_destination.time_component": 1637207088358,
+        "sandag2full.joint_tour_frequency.time_component": 1637207498971,
+        "sandag2full.joint_tour_participation.time_component": 1637207865945,
+        "sandag2full.joint_tour_scheduling.time_component": 1637208238032,
+        "sandag2full.mandatory_tour_frequency.time_component": 1637208615918,
+        "sandag2full.mandatory_tour_scheduling.time_component": 1637208988801,
+        "sandag2full.non_mandatory_tour_destination.time_component": 1637209592802,
+        "sandag2full.non_mandatory_tour_frequency.time_component": 1637210413007,
+        "sandag2full.non_mandatory_tour_scheduling.time_component": 1637210820915,
+        "sandag2full.school_location.time_component": 1637211268262,
+        "sandag2full.stop_frequency.time_component": 1637211785778,
+        "sandag2full.tour_mode_choice_simulate.time_component": 1637212147039,
+        "sandag2full.trip_destination.time_component": 1637212991167,
+        "sandag2full.trip_mode_choice.time_component": 1637216039921,
+        "sandag2full.trip_purpose.time_component": 1637216476758,
+        "sandag2full.trip_purpose_and_destination.time_component": 1637216836222,
+        "sandag2full.trip_scheduling.time_component": 1637217209602,
+        "sandag2full.workplace_location.time_component": 1637217626421,
+        "sandag2full.write_trip_matrices.time_component": 1637218411694,
+        "sandag3example.atwork_subtour_destination.time_component": 1637218898977,
+        "sandag3example.atwork_subtour_frequency.time_component": 1637221575292,
+        "sandag3example.atwork_subtour_mode_choice.time_component": 1637221583016,
+        "sandag3example.atwork_subtour_scheduling.time_component": 1637221595046,
+        "sandag3example.auto_ownership_simulate.time_component": 1637221605773,
+        "sandag3example.cdap_simulate.time_component": 1637221610195,
+        "sandag3example.free_parking.time_component": 1637221626225,
+        "sandag3example.joint_tour_composition.time_component": 1637221631347,
+        "sandag3example.joint_tour_destination.time_component": 1637221636269,
+        "sandag3example.joint_tour_frequency.time_component": 1637221664212,
+        "sandag3example.joint_tour_participation.time_component": 1637221670034,
+        "sandag3example.joint_tour_scheduling.time_component": 1637221686867,
+        "sandag3example.mandatory_tour_frequency.time_component": 1637221695493,
+        "sandag3example.mandatory_tour_scheduling.time_component": 1637221701917,
+        "sandag3example.non_mandatory_tour_destination.time_component": 1637222008129,
+        "sandag3example.non_mandatory_tour_frequency.time_component": 1637222532751,
+        "sandag3example.non_mandatory_tour_scheduling.time_component": 1637222593540,
+        "sandag3example.school_location.time_component": 1637222673936,
+        "sandag3example.stop_frequency.time_component": 1637222931300,
+        "sandag3example.tour_mode_choice_simulate.time_component": 1637222946432,
+        "sandag3example.trip_destination.time_component": 1637223026427,
+        "sandag3example.trip_mode_choice.time_component": 1637223546145,
+        "sandag3example.trip_purpose.time_component": 1637223651963,
+        "sandag3example.trip_purpose_and_destination.time_component": 1637223660688,
+        "sandag3example.trip_scheduling.time_component": 1637223671314,
+        "sandag3example.workplace_location.time_component": 1637223713673,
+        "sandag3example.write_trip_matrices.time_component": 1637224066830,
+        "sandag3full.atwork_subtour_destination.time_component": 1637224080159,
+        "sandag3full.atwork_subtour_frequency.time_component": 1637240134575,
+        "sandag3full.atwork_subtour_mode_choice.time_component": 1637240236487,
+        "sandag3full.atwork_subtour_scheduling.time_component": 1637240356519,
+        "sandag3full.auto_ownership_simulate.time_component": 1637240465339,
+        "sandag3full.cdap_simulate.time_component": 1637240570658,
+        "sandag3full.free_parking.time_component": 1637240688785,
+        "sandag3full.joint_tour_composition.time_component": 1637240795703,
+        "sandag3full.joint_tour_destination.time_component": 1637240903221,
+        "sandag3full.joint_tour_frequency.time_component": 1637241037967,
+        "sandag3full.joint_tour_participation.time_component": 1637241148588,
+        "sandag3full.joint_tour_scheduling.time_component": 1637241258413,
+        "sandag3full.mandatory_tour_frequency.time_component": 1637241368233,
+        "sandag3full.mandatory_tour_scheduling.time_component": 1637241477853,
+        "sandag3full.non_mandatory_tour_destination.time_component": 1637241813792,
+        "sandag3full.non_mandatory_tour_frequency.time_component": 1637242449424,
+        "sandag3full.non_mandatory_tour_scheduling.time_component": 1637242599283,
+        "sandag3full.school_location.time_component": 1637242766961,
+        "sandag3full.stop_frequency.time_component": 1637243095893,
+        "sandag3full.tour_mode_choice_simulate.time_component": 1637243209115,
+        "sandag3full.trip_destination.time_component": 1637243428341,
+        "sandag3full.trip_mode_choice.time_component": 1637244866751,
+        "sandag3full.trip_purpose.time_component": 1637245123515,
+        "sandag3full.trip_purpose_and_destination.time_component": 1637245231032,
+        "sandag3full.trip_scheduling.time_component": 1637245355373,
+        "sandag3full.workplace_location.time_component": 1637245491320,
+        "sandag3full.write_trip_matrices.time_component": 1637246104431
+    },
+    "version": 1
+}
