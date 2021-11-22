@@ -1,0 +1,9 @@
+{
+    "arch": "x86_64",
+    "cpu": "Intel(R) Xeon(R) Silver 4116 CPU @ 2.10GHz   2.10 GHz  (2 processors)",
+    "machine": "MEDCWS01",
+    "num_cpu": "48",
+    "os": "Windows 10 Enterprise",
+    "ram": "256 GB",
+    "version": 1
+}
