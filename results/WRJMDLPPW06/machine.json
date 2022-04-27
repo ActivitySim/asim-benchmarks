@@ -1,9 +1,0 @@
-{
-    "arch": "x86_64",
-    "cpu": "Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz (24 cores)",
-    "machine": "WRJMDLPPW06",
-    "num_cpu": "48",
-    "os": "Windows 10",
-    "ram": "256GB",
-    "version": 1
-}

@@ -1,9 +1,0 @@
-{
-    "arch": "x86_64",
-    "cpu": "Intel(R) Xeon(R) E5-2697 v4 @ 2.30 GHz",
-    "machine": "OAKCWS03",
-    "num_cpu": "36",
-    "os": "Windows 10",
-    "ram": "64GB",
-    "version": 1
-}
