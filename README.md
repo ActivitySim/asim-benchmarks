@@ -1,2 +1,0 @@
-# asim-benchmarks
-ActivitySim benchmarks
